@@ -10,7 +10,9 @@ __pycache__/
 .idea/
 
 # Datasets or large data files
-dataset/
+*.csv
+*.xlsx
+data/
 
 # Logs
 *.log
