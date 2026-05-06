@@ -1,0 +1,22 @@
+artifact_path: /home/hvtruong/Projects/Kaggle/titanic/mlruns/0/models/m-6e0312cdf7a04a74a329cb563840f151/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.2
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-6e0312cdf7a04a74a329cb563840f151
+model_size_bytes: 560075
+model_uuid: m-6e0312cdf7a04a74a329cb563840f151
+prompts: null
+run_id: a60eb38e16294a8b8586f00b7cb84cd9
+utc_time_created: '2026-05-05 03:54:42.795708'

@@ -13,7 +13,14 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop(['Name', 'Ticket', 'Fare', 'Cabin'], axis=1)
     
     # Fill missing ages with the median of people with the same PClass and Sex
+    # Count NaN values in 'Age' before filling
+    nan_count_before = df['Age'].isna().sum()
+
+    # Perform the fill operation
     df = df.fillna({'Age': df.groupby(['Pclass', 'Sex'])['Age'].transform('median')})
+
+    # The number of filled values is equal to nan_count_before
+    print(f"Number of Age values filled: {nan_count_before}")
     # Fill missing Embarked with the most frequent port of people with the same PClass and Sex
     df = df.fillna({'Embarked': df.groupby(['Pclass', 'Sex'])['Embarked'].transform(lambda x: x.mode()[0])})
     
@@ -28,5 +35,5 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     
     df['is_infant_or_female'] = ((df['Age'] == 0) | (df['Sex'] == 1)).astype('int')
     df['is_family_size_2_to_4_or_upper_class'] = ((df['FamilySize'] >= 2) & (df['FamilySize'] <= 4) | (df['Pclass'] == 2)).astype('int')
-
-    return df
+    print(df.info())
+    return df.apply(pd.to_numeric, errors='coerce')
