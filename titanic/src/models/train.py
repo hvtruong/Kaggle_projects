@@ -23,7 +23,9 @@ def train_model(df: pd.DataFrame, target_col: str, model):
         preds = model.predict(X_test)
         acc = accuracy_score(y_test, preds)
         rec = recall_score(y_test, preds)
-
+        
+        df['preds'] = preds
+        df.to_csv('predictions.csv', index=False)
         # Log params, metrics, and model
         mlflow.log_param("n_estimators", 300)
         mlflow.log_metric("accuracy", acc)

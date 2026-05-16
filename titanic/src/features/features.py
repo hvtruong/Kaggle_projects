@@ -27,13 +27,14 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
     df = df.drop(['SibSp', 'Parch'], axis=1)
     
-    df['Age'] = pd.cut(df['Age'], bins=[0, 5, 12, 18, 65, 150], labels=[0, 1, 2, 3, 4])
+    df['Age'] = pd.cut(df['Age'], bins=[0, 10, 18, 65, 150], labels=[0, 1, 2, 3])
     
     df['Sex'] = df['Sex'].map({'male': 0, 'female': 1})
     df['Embarked'] = df['Embarked'].map({'C': 0, 'S': 1, 'Q': 2})
     df['Pclass'] = df['Pclass'] - 1
     
     df['is_infant_or_female'] = ((df['Age'] == 0) | (df['Sex'] == 1)).astype('int')
-    df['is_family_size_2_to_4_or_upper_class'] = ((df['FamilySize'] >= 2) & (df['FamilySize'] <= 4) | (df['Pclass'] == 2)).astype('int')
-    print(df.info())
+    df['is_family_size_average'] = ((df['FamilySize'] >= 2) & (df['FamilySize'] <= 4)).astype('int')
+    df['is_from_cherbourg'] = (df['Embarked'] == 'Cherbourg')
+
     return df.apply(pd.to_numeric, errors='coerce')
