@@ -1,0 +1,2412 @@
+booster[0]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=222.285034,cover=191.701996
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=23.886795,cover=123.100403
+		3:[Age<16] yes=7,no=8,missing=8,gain=4.48175812,cover=75.5334549
+			7:leaf=0.0466342233,cover=1.19514954
+			8:leaf=-0.118036143,cover=74.3383026
+		4:[Fare<30.6958008] yes=9,no=10,missing=10,gain=8.82015228,cover=47.5669518
+			9:[Age<53] yes=15,no=16,missing=16,gain=3.98530483,cover=7.88798714
+				15:[Embarked<1] yes=23,no=24,missing=24,gain=3.2647953,cover=6.45380783
+					23:[Fare<28.5] yes=33,no=34,missing=34,gain=0.910948753,cover=2.39029908
+						33:leaf=-0.0444757454,cover=1.19514954
+						34:leaf=0.0466342233,cover=1.19514954
+					24:leaf=0.143784672,cover=4.06350851
+				16:leaf=-0.0563463345,cover=1.43417954
+			10:[Age<4] yes=17,no=18,missing=18,gain=10.3856831,cover=39.6789665
+				17:[FamilySize<1] yes=25,no=26,missing=26,gain=4.70480013,cover=3.82447863
+					25:leaf=0.155734569,cover=2.62932897
+					26:leaf=-0.0444757454,cover=1.19514954
+				18:[Pclass<1] yes=27,no=28,missing=28,gain=3.50454521,cover=35.8544884
+					27:[Age<39] yes=35,no=36,missing=36,gain=3.00752544,cover=16.4930649
+						35:[Fare<106.425003] yes=45,no=46,missing=46,gain=2.48208523,cover=6.69283772
+							45:leaf=-0.049419973,cover=2.1512692
+							46:leaf=0.0629790202,cover=4.54156828
+						36:[Embarked<1] yes=47,no=48,missing=48,gain=0.6574471,cover=9.80022621
+							47:leaf=-0.021022249,cover=4.30253839
+							48:leaf=-0.0783512816,cover=5.49768782
+					28:[Fare<72.4499969] yes=37,no=38,missing=38,gain=3.88402367,cover=19.3614235
+						37:[Fare<45.7374001] yes=49,no=50,missing=50,gain=3.63947105,cover=10.9953756
+							49:leaf=-0.110357814,cover=3.82447863
+							50:leaf=0.00173965318,cover=7.17089748
+						38:leaf=-0.13702862,cover=8.36604691
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=52.0388641,cover=68.6015854
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=1.01019287,cover=36.8106079
+			11:leaf=0.226798654,cover=35.3764267
+			12:leaf=0.0668984801,cover=1.43417954
+		6:[Fare<78] yes=13,no=14,missing=14,gain=23.3818531,cover=31.7909794
+			13:[Age<28] yes=19,no=20,missing=20,gain=6.86426735,cover=25.5762005
+				19:[Embarked<2] yes=29,no=30,missing=30,gain=0.835281372,cover=20.317543
+					29:[Fare<8.05000019] yes=39,no=40,missing=40,gain=0.814105988,cover=11.4734364
+						39:leaf=0.165391058,cover=6.45380783
+						40:[Fare<46] yes=51,no=52,missing=52,gain=4.37266302,cover=5.01962805
+							51:leaf=-0.00336962752,cover=3.10738897
+							52:leaf=0.166123211,cover=1.91223931
+					30:[Fare<11.5] yes=41,no=42,missing=42,gain=1.22418594,cover=8.84410667
+						41:[Fare<7.7750001] yes=53,no=54,missing=54,gain=1.68454003,cover=4.06350851
+							53:leaf=0.0921892077,cover=1.19514954
+							54:leaf=-0.01921078,cover=2.86835909
+						42:leaf=0.105434828,cover=4.78059816
+				20:[Fare<43.5] yes=31,no=32,missing=32,gain=1.30294907,cover=5.25865793
+					31:[Fare<12.875] yes=43,no=44,missing=44,gain=0.365365863,cover=3.58544874
+						43:leaf=-0.00556597812,cover=1.91223931
+						44:leaf=-0.0660940632,cover=1.67320943
+					32:leaf=0.0461305901,cover=1.67320943
+			14:[Fare<219.712494] yes=21,no=22,missing=22,gain=0.902376175,cover=6.21477795
+				21:leaf=-0.135520741,cover=4.54156828
+				22:leaf=-0.0286858473,cover=1.67320943
+booster[1]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=180.523987,cover=190.801483
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=20.2980957,cover=120.749115
+		3:[Age<16] yes=7,no=8,missing=8,gain=3.92112732,cover=73.4900131
+			7:leaf=0.0438613631,cover=1.20625281
+			8:[Embarked<1] yes=15,no=16,missing=16,gain=0.0645751953,cover=72.2837601
+				15:[Age<23] yes=25,no=26,missing=26,gain=0.999824047,cover=7.90240479
+					25:leaf=0.00753331883,cover=1.16211832
+					26:[Fare<13] yes=37,no=38,missing=38,gain=1.35681772,cover=6.74028635
+						37:leaf=-0.103648618,cover=5.57816792
+						38:leaf=0.00753331883,cover=1.16211832
+				16:leaf=-0.112840258,cover=64.3813553
+		4:[Fare<30.6958008] yes=9,no=10,missing=10,gain=7.38280487,cover=47.2591019
+			9:[Age<53] yes=17,no=18,missing=18,gain=3.38874817,cover=7.9729681
+				17:[Embarked<1] yes=27,no=28,missing=28,gain=2.65992451,cover=6.55668831
+					27:[Fare<28.5] yes=39,no=40,missing=40,gain=0.814375877,cover=2.38976145
+						39:leaf=-0.0422901548,cover=1.18350875
+						40:leaf=0.0438613631,cover=1.20625281
+					28:leaf=0.129446,cover=4.16692638
+				18:leaf=-0.0534398146,cover=1.41628027
+			10:[Age<4] yes=19,no=20,missing=20,gain=8.82476425,cover=39.2861328
+				19:[FamilySize<1] yes=29,no=30,missing=30,gain=3.99168491,cover=3.8841691
+					29:leaf=0.141507328,cover=2.70066023
+					30:leaf=-0.0422901548,cover=1.18350875
+				20:[FamilySize<2] yes=31,no=32,missing=32,gain=3.16257572,cover=35.4019661
+					31:[Age<12] yes=41,no=42,missing=42,gain=9.42921066,cover=30.9941692
+						41:leaf=0.150664523,cover=1.42631209
+						42:[Fare<375.200012] yes=47,no=48,missing=48,gain=3.41734505,cover=29.5678577
+							47:leaf=-0.0641745925,cover=28.1231937
+							48:leaf=0.0642726794,cover=1.44466472
+					32:leaf=-0.128674716,cover=4.40779495
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=39.2236099,cover=70.0523682
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.526016235,cover=38.0909538
+			11:leaf=0.197455764,cover=36.6380959
+			12:leaf=0.062451411,cover=1.45285702
+		6:[Fare<78] yes=13,no=14,missing=14,gain=19.7916012,cover=31.9614124
+			13:[Age<28] yes=21,no=22,missing=22,gain=5.67724419,cover=25.9032421
+				21:[Age<6] yes=33,no=34,missing=34,gain=0.868144989,cover=20.6561623
+					33:leaf=0.167390168,cover=2.440835
+					34:[Fare<8.05000019] yes=43,no=44,missing=44,gain=3.73859119,cover=18.2153263
+						43:[Embarked<2] yes=49,no=50,missing=50,gain=0.651077271,cover=9.51963043
+							49:leaf=0.147227332,cover=6.63732195
+							50:leaf=0.0560944863,cover=2.88230896
+						44:[Fare<14.5] yes=51,no=52,missing=52,gain=3.15877104,cover=8.69569588
+							51:leaf=-0.0653047934,cover=1.66796613
+							52:leaf=0.0623126887,cover=7.02772951
+				22:[Fare<43.5] yes=35,no=36,missing=36,gain=1.14597154,cover=5.2470808
+					35:[Fare<12.875] yes=45,no=46,missing=46,gain=0.327130616,cover=3.55848622
+						45:leaf=-0.00520473532,cover=1.90999687
+						46:leaf=-0.0625656173,cover=1.64848936
+					36:leaf=0.0429823063,cover=1.68859458
+			14:[Fare<219.712494] yes=23,no=24,missing=24,gain=0.795708656,cover=6.05817032
+				23:leaf=-0.127963439,cover=4.39531136
+				24:leaf=-0.0270003974,cover=1.66285884
+booster[2]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=147.951248,cover=188.477493
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=17.6722832,cover=118.030319
+		3:[Age<16] yes=7,no=8,missing=8,gain=3.44985962,cover=71.2589035
+			7:leaf=0.0412784219,cover=1.21562552
+			8:[Embarked<1] yes=15,no=16,missing=16,gain=0.0402679443,cover=70.0432739
+				15:[Age<23] yes=23,no=24,missing=24,gain=0.875900745,cover=7.74239969
+					23:leaf=0.00712040765,cover=1.16442645
+					24:[Fare<13] yes=31,no=32,missing=32,gain=1.19737673,cover=6.57797337
+						31:leaf=-0.0974242613,cover=5.41354656
+						32:leaf=0.00712040765,cover=1.16442645
+				16:leaf=-0.105253242,cover=62.3008766
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=6.49787951,cover=46.7714157
+			9:[Age<12] yes=17,no=18,missing=18,gain=15.9538546,cover=41.3572388
+				17:leaf=0.159261569,cover=4.20468473
+				18:[Pclass<1] yes=25,no=26,missing=26,gain=7.88271904,cover=37.1525536
+					25:[Fare<30.6958008] yes=33,no=34,missing=34,gain=4.50193405,cover=22.7757072
+						33:[Age<53] yes=41,no=42,missing=42,gain=3.58006144,cover=7.52401686
+							41:leaf=0.098505877,cover=6.12644291
+							42:leaf=-0.0507205389,cover=1.39757359
+						34:[Fare<80] yes=43,no=44,missing=44,gain=2.44630194,cover=15.2516909
+							43:leaf=-0.0702715442,cover=5.34753275
+							44:leaf=0.00852098595,cover=9.90415859
+					26:[Pclass<2] yes=35,no=36,missing=36,gain=1.09526253,cover=14.3768463
+						35:leaf=-0.117655613,cover=5.53855419
+						36:[Fare<45.7374001] yes=45,no=46,missing=46,gain=4.09148502,cover=8.83829212
+							45:leaf=-0.121984683,cover=3.46063638
+							46:leaf=0.00643661758,cover=5.37765551
+			10:leaf=-0.113424413,cover=5.41417789
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=31.1536102,cover=70.4471741
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.292205811,cover=38.4676323
+			11:leaf=0.176412508,cover=36.9999924
+			12:leaf=0.0583811067,cover=1.46764004
+		6:[Fare<78] yes=13,no=14,missing=14,gain=16.7875557,cover=31.9795399
+			13:[Age<28] yes=19,no=20,missing=20,gain=4.70522404,cover=26.0985317
+				19:[Age<6] yes=27,no=28,missing=28,gain=0.813838959,cover=20.8668232
+					27:leaf=0.153358489,cover=2.4864502
+					28:[Fare<8.05000019] yes=37,no=38,missing=38,gain=3.11439896,cover=18.380373
+						37:[Embarked<2] yes=47,no=48,missing=48,gain=0.497436523,cover=9.64060783
+							47:leaf=0.132745788,cover=6.72863865
+							48:leaf=0.0515144244,cover=2.91196918
+						38:[Fare<14.5] yes=49,no=50,missing=50,gain=2.70079613,cover=8.73976517
+							49:leaf=-0.0618333109,cover=1.64288974
+							50:leaf=0.0563446656,cover=7.09687567
+				20:[Fare<43.5] yes=29,no=30,missing=30,gain=1.0086906,cover=5.23170805
+					29:[Fare<12.875] yes=39,no=40,missing=40,gain=0.293515325,cover=3.53022337
+						39:leaf=-0.0048668473,cover=1.90787697
+						40:leaf=-0.0592869595,cover=1.6223464
+					30:leaf=0.0400801189,cover=1.70148468
+			14:[Fare<219.712494] yes=21,no=22,missing=22,gain=0.713898182,cover=5.88100815
+				21:leaf=-0.121489637,cover=4.2284236
+				22:leaf=-0.025417557,cover=1.65258443
+booster[3]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=122.82872,cover=185.204498
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=15.1021652,cover=115.156395
+		3:[Age<16] yes=7,no=8,missing=8,gain=3.04494858,cover=68.9063187
+			7:leaf=0.0388686173,cover=1.22346711
+			8:[Embarked<1] yes=15,no=16,missing=16,gain=0.0242881775,cover=67.6828461
+				15:[Age<23] yes=25,no=26,missing=26,gain=0.770004749,cover=7.5731988
+					25:leaf=0.00673028221,cover=1.16658401
+					26:[Fare<13] yes=35,no=36,missing=36,gain=1.06105661,cover=6.40661478
+						35:leaf=-0.0918145403,cover=5.24003077
+						36:leaf=0.00673028221,cover=1.16658401
+				16:[Fare<7.92500019] yes=27,no=28,missing=28,gain=0.093963623,cover=60.1096497
+					27:leaf=-0.111691497,cover=26.0402813
+					28:[Fare<8.0291996] yes=37,no=38,missing=38,gain=3.40930557,cover=34.0693703
+						37:leaf=0.0257577095,cover=2.17002344
+						38:[Age<20.5] yes=47,no=48,missing=48,gain=0.150465012,cover=31.8993454
+							47:leaf=-0.0580287538,cover=6.29306793
+							48:leaf=-0.0998448655,cover=25.6062775
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=5.65257835,cover=46.2500763
+			9:[Age<12] yes=17,no=18,missing=18,gain=13.4457808,cover=41.0376358
+				17:leaf=0.145333454,cover=4.24028254
+				18:[Pclass<1] yes=29,no=30,missing=30,gain=6.78407669,cover=36.7973518
+					29:[Age<39] yes=39,no=40,missing=40,gain=4.08157539,cover=22.7299213
+						39:[Fare<36] yes=49,no=50,missing=50,gain=3.54996991,cover=8.40246964
+							49:leaf=0.13649258,cover=2.69940925
+							50:leaf=0.00897153374,cover=5.7030611
+						40:[Age<53] yes=51,no=52,missing=52,gain=1.49311316,cover=14.3274517
+							51:leaf=-0.00134350616,cover=10.1827898
+							52:leaf=-0.0675749704,cover=4.14466238
+					30:[Fare<60.1416016] yes=41,no=42,missing=42,gain=1.15335274,cover=14.0674305
+						41:[Fare<56.25] yes=53,no=54,missing=54,gain=5.73586369,cover=8.67282867
+							53:leaf=-0.0847745985,cover=7.02036619
+							54:leaf=0.087703146,cover=1.65246272
+						42:[Embarked<2] yes=55,no=56,missing=56,gain=0.0559463501,cover=5.39460087
+							55:leaf=-0.035618078,cover=1.13726759
+							56:leaf=-0.123046391,cover=4.25733328
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.017291069,cover=5.21244097
+				19:leaf=-0.0347832218,cover=1.13530815
+				20:leaf=-0.116791166,cover=4.0771327
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=25.5738907,cover=70.0481033
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.174942017,cover=38.1958542
+			11:leaf=0.160475016,cover=36.7168121
+			12:leaf=0.0546424277,cover=1.47904205
+		6:[Fare<78] yes=13,no=14,missing=14,gain=14.32061,cover=31.8522472
+			13:[Age<28] yes=21,no=22,missing=22,gain=3.93889046,cover=26.1613522
+				21:[Age<6] yes=31,no=32,missing=32,gain=0.777118683,cover=20.9479885
+					31:leaf=0.141901195,cover=2.49832511
+					32:[Fare<8.05000019] yes=43,no=44,missing=44,gain=2.63607311,cover=18.4496632
+						43:[Age<21.5] yes=57,no=58,missing=58,gain=0.417640686,cover=9.68484974
+							57:leaf=0.0450807512,cover=2.73272824
+							58:leaf=0.120044343,cover=6.95212126
+						44:[Fare<29] yes=59,no=60,missing=60,gain=2.48467493,cover=8.76481342
+							59:leaf=-0.0248482656,cover=4.31848907
+							60:leaf=0.0725064427,cover=4.44632435
+				22:[Fare<43.5] yes=33,no=34,missing=34,gain=0.888490617,cover=5.21336412
+					33:[Fare<12.875] yes=45,no=46,missing=46,gain=0.263829172,cover=3.50115728
+						45:leaf=-0.00455082953,cover=1.90587449
+						46:leaf=-0.0562295988,cover=1.59528267
+					34:leaf=0.0373991877,cover=1.7122072
+			14:[Fare<219.712494] yes=23,no=24,missing=24,gain=0.64948082,cover=5.6908946
+				23:leaf=-0.115858041,cover=4.04844093
+				24:leaf=-0.0239302348,cover=1.64245367
+booster[4]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=102.774284,cover=181.298813
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=13.0805206,cover=112.198341
+		3:[Age<16] yes=7,no=8,missing=8,gain=2.69928741,cover=66.5564117
+			7:leaf=0.0366171412,cover=1.22995961
+			8:[Embarked<1] yes=15,no=16,missing=16,gain=0.0189628601,cover=65.3264542
+				15:[Age<23] yes=27,no=28,missing=28,gain=0.678671598,cover=7.39955378
+					27:leaf=0.00636165449,cover=1.16860163
+					28:[Fare<13] yes=39,no=40,missing=40,gain=0.94321394,cover=6.23095226
+						39:leaf=-0.0867024437,cover=5.06235027
+						40:leaf=0.00636165449,cover=1.16860163
+				16:[Fare<7.92500019] yes=29,no=30,missing=30,gain=0.117198944,cover=57.926899
+					29:leaf=-0.105458573,cover=24.9381027
+					30:[Fare<8.0291996] yes=41,no=42,missing=42,gain=2.99411774,cover=32.9887962
+						41:leaf=0.0238352753,cover=2.19010925
+						42:[Fare<8.30000019] yes=51,no=52,missing=52,gain=0.152572632,cover=30.7986851
+							51:leaf=-0.0576729886,cover=7.74750757
+							52:leaf=-0.095137924,cover=23.051178
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=5.03804779,cover=45.6419334
+			9:[Age<12] yes=17,no=18,missing=18,gain=11.3743868,cover=40.6278648
+				17:leaf=0.133938685,cover=4.22634935
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=5.86349678,cover=36.401516
+					31:[Age<39] yes=43,no=44,missing=44,gain=3.47611332,cover=22.6800041
+						43:[Fare<36] yes=53,no=54,missing=54,gain=3.02780056,cover=8.43724632
+							53:leaf=0.125671506,cover=2.72325134
+							54:leaf=0.00819411222,cover=5.71399546
+						44:[Age<53] yes=55,no=56,missing=56,gain=1.29325867,cover=14.2427568
+							55:leaf=-0.00122148439,cover=10.1800718
+							56:leaf=-0.0631909594,cover=4.06268501
+					32:[Fare<60.1416016] yes=45,no=46,missing=46,gain=1.10232592,cover=13.7215118
+						45:[Fare<56.25] yes=57,no=58,missing=58,gain=4.98919344,cover=8.51594639
+							57:leaf=-0.079315044,cover=6.8319931
+							58:leaf=0.0812214613,cover=1.6839534
+						46:[Embarked<2] yes=59,no=60,missing=60,gain=0.0428218842,cover=5.20556545
+							59:leaf=-0.0339257717,cover=1.12511337
+							60:leaf=-0.117229439,cover=4.08045197
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0125398636,cover=5.01406765
+				19:leaf=-0.033133138,cover=1.12310171
+				20:leaf=-0.111720338,cover=3.89096594
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=21.4571915,cover=69.1004715
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.116447449,cover=37.4632111
+			11:[Fare<42.4000015] yes=21,no=22,missing=22,gain=0.0104675293,cover=35.9756813
+				21:[Age<50] yes=33,no=34,missing=34,gain=1.30916023,cover=8.99392033
+					33:leaf=0.117762662,cover=7.77852583
+					34:leaf=0.00379324192,cover=1.21539462
+				22:leaf=0.158194408,cover=26.9817619
+			12:leaf=0.0511973463,cover=1.48752856
+		6:[Fare<78] yes=13,no=14,missing=14,gain=12.2974339,cover=31.6372623
+			13:[Age<28] yes=23,no=24,missing=24,gain=3.33553982,cover=26.1434994
+				23:[Age<6] yes=35,no=36,missing=36,gain=0.741512299,cover=20.9507523
+					35:leaf=0.132358313,cover=2.48328876
+					36:[Fare<8.05000019] yes=47,no=48,missing=48,gain=2.19665241,cover=18.4674644
+						47:[Embarked<2] yes=61,no=62,missing=62,gain=0.564499855,cover=9.69476223
+							61:leaf=0.112691201,cover=6.72462368
+							62:leaf=0.0394214168,cover=2.97013903
+						48:[Fare<14.5] yes=63,no=64,missing=64,gain=2.12765312,cover=8.77270126
+							63:leaf=-0.0573223308,cover=1.60522509
+							64:leaf=0.0478034578,cover=7.16747618
+				24:[Fare<31.7000008] yes=37,no=38,missing=38,gain=0.784449935,cover=5.19274664
+					37:leaf=-0.0388986059,cover=2.79981804
+					38:[Age<32] yes=49,no=50,missing=50,gain=0.125123799,cover=2.39292884
+						49:leaf=0.000716760231,cover=1.18551123
+						50:leaf=0.041614078,cover=1.20741761
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.597476482,cover=5.49376345
+				25:leaf=-0.110891305,cover=3.86124372
+				26:leaf=-0.0225319974,cover=1.63251996
+booster[5]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=86.63414,cover=176.914337
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=11.3339043,cover=109.153793
+		3:[Age<16] yes=7,no=8,missing=8,gain=2.39689255,cover=64.2040405
+			7:leaf=0.0345108733,cover=1.2352674
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.136329651,cover=62.9687691
+				15:[Age<31] yes=27,no=28,missing=28,gain=4.56132126,cover=46.6697464
+					27:[Age<27] yes=37,no=38,missing=38,gain=1.34986877,cover=44.1867332
+						37:[Fare<15.5] yes=47,no=48,missing=48,gain=1.03575134,cover=35.6976013
+							47:leaf=-0.0974216089,cover=33.0123711
+							48:leaf=-0.0224373098,cover=2.68523216
+						38:[Age<28] yes=49,no=50,missing=50,gain=1.90790772,cover=8.48913193
+							49:leaf=0.0446243696,cover=1.39783049
+							50:leaf=-0.0608304404,cover=7.09130144
+					28:leaf=0.0422748253,cover=2.48301315
+				16:leaf=-0.101919971,cover=16.2990227
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=4.50308418,cover=44.9497566
+			9:[Age<12] yes=17,no=18,missing=18,gain=9.69224834,cover=40.1372757
+				17:leaf=0.124394432,cover=4.17473364
+				18:[Fare<30.6958008] yes=29,no=30,missing=30,gain=5.21345043,cover=35.9625435
+					29:[Fare<30] yes=39,no=40,missing=40,gain=1.96393752,cover=7.97120047
+						39:[Fare<26.8334007] yes=51,no=52,missing=52,gain=4.43062019,cover=6.03363323
+							51:leaf=0.0692838356,cover=3.89510489
+							52:leaf=-0.0831127986,cover=2.13852835
+						40:leaf=0.11304567,cover=1.93756723
+					30:[Embarked<1] yes=41,no=42,missing=42,gain=2.70281506,cover=27.9913425
+						41:[Fare<48] yes=53,no=54,missing=54,gain=0.877151072,cover=8.54180336
+							53:leaf=0.0475466624,cover=2.258564
+							54:leaf=-0.0149477078,cover=6.28323889
+						42:[Fare<56.25] yes=55,no=56,missing=56,gain=2.24550295,cover=19.4495392
+							55:leaf=-0.0988767371,cover=8.22572803
+							56:leaf=-0.0284538064,cover=11.2238121
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.010995388,cover=4.81247807
+				19:leaf=-0.0315692164,cover=1.11103463
+				20:leaf=-0.107201159,cover=3.70144343
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=18.4451981,cover=67.7605438
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.0936813354,cover=36.4332352
+			11:[Fare<42.4000015] yes=21,no=22,missing=22,gain=0.0102005005,cover=34.9397163
+				21:[Age<50] yes=31,no=32,missing=32,gain=1.12911797,cover=8.81673145
+					31:leaf=0.109644391,cover=7.60210752
+					32:leaf=0.00358644919,cover=1.21462357
+				22:leaf=0.147702426,cover=26.1229858
+			12:leaf=0.0480136983,cover=1.4935168
+		6:[Fare<78] yes=13,no=14,missing=14,gain=10.592617,cover=31.3273106
+			13:[Age<28] yes=23,no=24,missing=24,gain=2.79635525,cover=26.0331192
+				23:[Age<6] yes=33,no=34,missing=34,gain=0.724815369,cover=20.8607159
+					33:leaf=0.124270894,cover=2.44722414
+					34:[Age<21.5] yes=43,no=44,missing=44,gain=2.08779907,cover=18.4134922
+						43:[Fare<18.7875004] yes=57,no=58,missing=58,gain=1.76423883,cover=6.374506
+							57:leaf=0.0482834838,cover=3.8975563
+							58:leaf=-0.0451336913,cover=2.47694969
+						44:[Fare<8.0291996] yes=59,no=60,missing=60,gain=0.556005478,cover=12.0389862
+							59:leaf=0.102254324,cover=6.91401052
+							60:leaf=0.0435797721,cover=5.1249752
+				24:[Fare<43.5] yes=35,no=36,missing=36,gain=0.702300072,cover=5.17240286
+					35:[Fare<12.875] yes=45,no=46,missing=46,gain=0.27034843,cover=3.44642544
+						45:leaf=-0.0017260554,cover=1.88714802
+						46:leaf=-0.0525718443,cover=1.55927753
+					36:leaf=0.0333304629,cover=1.72597742
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.55448246,cover=5.29419136
+				25:leaf=-0.106456332,cover=3.67136621
+				26:leaf=-0.0212169643,cover=1.62282538
+booster[6]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=73.0882568,cover=172.348175
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=9.84601212,cover=106.153511
+		3:[Age<16] yes=7,no=8,missing=8,gain=2.12532806,cover=61.8951874
+			7:leaf=0.0325381421,cover=1.23953879
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.167549133,cover=60.6556473
+				15:[Age<31] yes=27,no=28,missing=28,gain=3.99323463,cover=45.1046371
+					27:[Age<27] yes=39,no=40,missing=40,gain=1.22858238,cover=42.5791817
+						39:[Fare<15.5] yes=53,no=54,missing=54,gain=0.921766281,cover=34.2510796
+							53:leaf=-0.0920145884,cover=31.5905514
+							54:leaf=-0.0209503602,cover=2.66052842
+						40:[Age<28] yes=55,no=56,missing=56,gain=1.67113578,cover=8.32810307
+							55:leaf=0.0415176451,cover=1.42552114
+							56:leaf=-0.0568968542,cover=6.90258169
+					28:leaf=0.0387628861,cover=2.52545357
+				16:[Age<62] yes=29,no=30,missing=30,gain=0.00128269196,cover=15.551012
+					29:leaf=-0.0999910608,cover=14.2183714
+					30:leaf=-0.0339022614,cover=1.33264041
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=4.05520678,cover=44.2583199
+			9:[Age<12] yes=17,no=18,missing=18,gain=8.27790833,cover=39.6469879
+				17:leaf=0.116238371,cover=4.09506178
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=4.59939957,cover=35.5519257
+					31:[Age<39] yes=41,no=42,missing=42,gain=2.93839884,cover=22.4686756
+						41:[Fare<36] yes=57,no=58,missing=58,gain=2.31908584,cover=8.39170933
+							57:leaf=0.113308728,cover=2.70155573
+							58:leaf=0.00967728347,cover=5.6901536
+						42:[Age<53] yes=59,no=60,missing=60,gain=1.17681861,cover=14.0769663
+							59:leaf=-0.000136969596,cover=10.0944958
+							60:leaf=-0.0595452003,cover=3.98247004
+					32:[Fare<60.1416016] yes=43,no=44,missing=44,gain=1.26938486,cover=13.0832491
+						43:[Fare<45.7374001] yes=61,no=62,missing=62,gain=4.55950117,cover=8.12827587
+							61:leaf=-0.10746254,cover=3.41354442
+							62:leaf=0.0293490794,cover=4.71473122
+						44:[Embarked<2] yes=63,no=64,missing=64,gain=0.0456542969,cover=4.95497322
+							63:leaf=-0.0314835869,cover=1.10675597
+							64:leaf=-0.11092712,cover=3.84821749
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.011484623,cover=4.61133575
+				19:leaf=-0.030085817,cover=1.09915864
+				20:leaf=-0.103127517,cover=3.51217699
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=16.1077042,cover=66.1946564
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.0869293213,cover=35.1865349
+			11:[Fare<78.75] yes=21,no=22,missing=22,gain=0.0656166077,cover=33.6891556
+				21:[Age<36.5] yes=33,no=34,missing=34,gain=0.874655724,cover=14.4854555
+					33:[Fare<69.75] yes=45,no=46,missing=46,gain=0.120131493,cover=10.7444172
+						45:leaf=0.121660113,cover=9.6147871
+						46:leaf=0.0340063088,cover=1.12962949
+					34:[Fare<28.5] yes=47,no=48,missing=48,gain=0.510519624,cover=3.74103856
+						47:[Fare<13.5] yes=65,no=66,missing=66,gain=0.814166665,cover=2.58931184
+							65:leaf=-0.00374563085,cover=1.17907
+							66:leaf=0.0946446136,cover=1.41024172
+						48:leaf=-0.00872215349,cover=1.15172684
+				22:leaf=0.14508006,cover=19.203701
+			12:leaf=0.0450640954,cover=1.49737811
+		6:[Fare<78] yes=13,no=14,missing=14,gain=9.14368153,cover=31.0081234
+			13:[Age<28] yes=23,no=24,missing=24,gain=2.38106966,cover=25.9124622
+				23:[Age<6] yes=35,no=36,missing=36,gain=0.713677406,cover=20.7623158
+					35:leaf=0.117311396,cover=2.39510131
+					36:[Age<21.5] yes=49,no=50,missing=50,gain=1.76035595,cover=18.3672142
+						49:[Fare<18.7875004] yes=67,no=68,missing=68,gain=1.50900626,cover=6.36927128
+							67:leaf=0.0443873331,cover=3.9031353
+							68:leaf=-0.042055957,cover=2.46613598
+						50:[Fare<8.0291996] yes=69,no=70,missing=70,gain=0.485760689,cover=11.9979429
+							69:leaf=0.0941040069,cover=6.85125589
+							70:leaf=0.0397842824,cover=5.14668751
+				24:[Age<36.5] yes=37,no=38,missing=38,gain=0.650126398,cover=5.15014553
+					37:[Age<31] yes=51,no=52,missing=52,gain=1.35918427,cover=3.77952838
+						51:leaf=-0.036777582,cover=1.87408304
+						52:leaf=0.0608643964,cover=1.90544534
+					38:leaf=-0.0494049489,cover=1.37061691
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.518122196,cover=5.09566212
+				25:leaf=-0.102451526,cover=3.48226047
+				26:leaf=-0.0199797843,cover=1.61340189
+booster[7]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=62.2024803,cover=167.695953
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=8.45452499,cover=103.193604
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.88710594,cover=59.6546364
+			7:leaf=0.0306885429,cover=1.24290729
+			8:[Embarked<1] yes=15,no=16,missing=16,gain=0.228721619,cover=58.4117279
+				15:[Age<23] yes=27,no=28,missing=28,gain=0.632305503,cover=6.73396587
+					27:leaf=0.0148034962,cover=1.11681259
+					28:[Fare<13] yes=39,no=40,missing=40,gain=0.855491161,cover=5.61715317
+						39:leaf=-0.0725206658,cover=4.48998117
+						40:leaf=0.0132214008,cover=1.12717199
+				16:[Fare<7.92500019] yes=29,no=30,missing=30,gain=0.31124115,cover=51.6777649
+					29:leaf=-0.0912875235,cover=21.9429703
+					30:[Fare<8.0291996] yes=41,no=42,missing=42,gain=2.48711109,cover=29.7347946
+						41:leaf=0.0282376464,cover=2.13589048
+						42:[Age<20.5] yes=55,no=56,missing=56,gain=0.463477135,cover=27.5989037
+							55:leaf=-0.0362143032,cover=5.48411274
+							56:leaf=-0.0801737681,cover=22.11479
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=3.62421131,cover=43.5389709
+			9:[Age<12] yes=17,no=18,missing=18,gain=7.15464592,cover=39.125576
+				17:leaf=0.109147124,cover=3.99509001
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=4.06000137,cover=35.1304893
+					31:[Age<39] yes=43,no=44,missing=44,gain=2.51560092,cover=22.3731651
+						43:[Fare<36] yes=57,no=58,missing=58,gain=2.02548957,cover=8.37837219
+							57:leaf=0.105796471,cover=2.67626238
+							58:leaf=0.00883753877,cover=5.70210934
+						44:[Fare<36] yes=59,no=60,missing=60,gain=1.07411742,cover=13.9947939
+							59:leaf=0.00844522286,cover=7.20625114
+							60:leaf=-0.0441539697,cover=6.78854322
+					32:[Fare<60.1416016] yes=45,no=46,missing=46,gain=1.15701246,cover=12.7573214
+						45:[Fare<45.7374001] yes=61,no=62,missing=62,gain=4.0370121,cover=8.00325012
+							61:leaf=-0.103215635,cover=3.24828768
+							62:leaf=0.0267291758,cover=4.75496197
+						46:[Embarked<2] yes=63,no=64,missing=64,gain=0.0413269997,cover=4.75407171
+							63:leaf=-0.0300060511,cover=1.09498417
+							64:leaf=-0.10649135,cover=3.65908766
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0132184029,cover=4.41339254
+				19:leaf=-0.0286778454,cover=1.08751523
+				20:leaf=-0.0994174182,cover=3.32587719
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=14.2975464,cover=64.5023422
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.0922927856,cover=33.8508644
+			11:[Fare<42.4000015] yes=21,no=22,missing=22,gain=0.114299774,cover=32.3514252
+				21:[Age<50] yes=33,no=34,missing=34,gain=0.917171001,cover=8.37867355
+					33:[Age<28] yes=47,no=48,missing=48,gain=0.133636951,cover=7.17290401
+						47:[Age<21.5] yes=65,no=66,missing=66,gain=0.812192082,cover=2.22826028
+							65:leaf=0.0792653933,cover=1.11413014
+							66:leaf=-0.0153361624,cover=1.11413014
+						48:leaf=0.109556153,cover=4.94464397
+					34:leaf=0.00151671283,cover=1.20576978
+				22:leaf=0.13230446,cover=23.9727497
+			12:leaf=0.0423250832,cover=1.4994415
+		6:[Fare<78] yes=13,no=14,missing=14,gain=7.91448069,cover=30.6514759
+			13:[Age<28] yes=23,no=24,missing=24,gain=2.04465151,cover=25.7506943
+				23:[Age<6] yes=35,no=36,missing=36,gain=0.702169418,cover=20.6158218
+					35:leaf=0.111240625,cover=2.33105874
+					36:[Age<21.5] yes=49,no=50,missing=50,gain=1.49108696,cover=18.2847633
+						49:[Fare<18.7875004] yes=67,no=68,missing=68,gain=1.29186857,cover=6.35842323
+							67:leaf=0.0408413522,cover=3.90453315
+							68:leaf=-0.0392094515,cover=2.45388985
+						50:[Fare<29] yes=69,no=70,missing=70,gain=0.614775658,cover=11.9263401
+							69:leaf=0.0462336801,cover=8.6794548
+							70:leaf=0.106258452,cover=3.2468853
+				24:[Fare<31.7000008] yes=37,no=38,missing=38,gain=0.581641972,cover=5.13487148
+					37:[Fare<9.2166996] yes=51,no=52,missing=52,gain=0.00426197052,cover=2.73183465
+						51:leaf=-0.0416287668,cover=1.17905784
+						52:leaf=-0.0135021452,cover=1.55277681
+					38:[Age<32] yes=53,no=54,missing=54,gain=0.0948992968,cover=2.40303707
+						53:leaf=0.000507989258,cover=1.18175805
+						54:leaf=0.0360217541,cover=1.22127903
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.486714363,cover=4.90078211
+				25:leaf=-0.0987982452,cover=3.29650855
+				26:leaf=-0.0188155007,cover=1.60427356
+booster[8]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=53.0143166,cover=163.021835
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=7.26641083,cover=100.28817
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.67613792,cover=57.492836
+			7:leaf=0.028952742,cover=1.24549222
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.275375366,cover=56.2473412
+				15:[Age<27] yes=27,no=28,missing=28,gain=3.55592537,cover=42.0248528
+					27:[Fare<7.25] yes=37,no=38,missing=38,gain=1.02870941,cover=31.6483517
+						37:[Age<24.5] yes=51,no=52,missing=52,gain=0.377007067,cover=5.10847473
+							51:leaf=0.00332698575,cover=2.10241055
+							52:leaf=-0.0474942811,cover=3.00606418
+						38:[Fare<15.5] yes=53,no=54,missing=54,gain=1.13301849,cover=26.5398769
+							53:leaf=-0.0930982679,cover=23.9698162
+							54:leaf=-0.0160372872,cover=2.57006073
+					28:[Age<31] yes=39,no=40,missing=40,gain=1.15327191,cover=10.376502
+						39:[Age<28] yes=55,no=56,missing=56,gain=1.49149752,cover=7.86573124
+							55:leaf=0.0445384681,cover=1.39856505
+							56:leaf=-0.0483154021,cover=6.46716642
+						40:leaf=0.0393532552,cover=2.51077032
+				16:[Age<62] yes=29,no=30,missing=30,gain=0.0479602814,cover=14.2224884
+					29:leaf=-0.0915976986,cover=12.9682989
+					30:leaf=-0.0282647014,cover=1.25418949
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=3.24961352,cover=42.7953339
+			9:[Age<12] yes=17,no=18,missing=18,gain=6.20441628,cover=38.5746651
+				17:leaf=0.102888361,cover=3.88102126
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=3.60405493,cover=34.6936417
+					31:[Age<53] yes=41,no=42,missing=42,gain=2.32776904,cover=22.2648335
+						41:[Fare<36] yes=57,no=58,missing=58,gain=3.1527071,cover=18.3818989
+							57:leaf=0.0682588592,cover=7.46167803
+							58:leaf=-0.0121555161,cover=10.9202213
+						42:[Fare<35] yes=59,no=60,missing=60,gain=0.14182806,cover=3.88293338
+							59:leaf=-0.0695341751,cover=2.1741612
+							60:leaf=-0.017679831,cover=1.70877218
+					32:[Pclass<2] yes=43,no=44,missing=44,gain=1.22744274,cover=12.4288092
+						43:leaf=-0.0950840041,cover=4.63611126
+						44:[Fare<45.7374001] yes=61,no=62,missing=62,gain=2.97920537,cover=7.79269791
+							61:leaf=-0.0963812396,cover=2.72678423
+							62:leaf=0.0185595844,cover=5.06591415
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0156636238,cover=4.22067022
+				19:leaf=-0.0273406561,cover=1.07613695
+				20:leaf=-0.0960068032,cover=3.14453316
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=12.7467461,cover=62.7336617
+		5:[Age<5] yes=11,no=12,missing=12,gain=0.106452942,cover=32.4197426
+			11:leaf=0.0321430378,cover=1.07677436
+			12:[Fare<78.75] yes=21,no=22,missing=22,gain=0.249546051,cover=31.342968
+				21:[Age<36.5] yes=33,no=34,missing=34,gain=0.747063637,cover=13.1751585
+					33:leaf=0.102300785,cover=9.55731583
+					34:[Fare<28.5] yes=45,no=46,missing=46,gain=0.510289609,cover=3.61784315
+						45:[Fare<13.5] yes=63,no=64,missing=64,gain=0.777638197,cover=2.50037169
+							63:leaf=-0.00708178384,cover=1.15768087
+							64:leaf=0.0875842944,cover=1.34269083
+						46:leaf=-0.0137419701,cover=1.11747146
+				22:leaf=0.131265819,cover=18.1678085
+		6:[Fare<78] yes=13,no=14,missing=14,gain=6.87685156,cover=30.3139172
+			13:[Age<36.5] yes=23,no=24,missing=24,gain=1.87498426,cover=25.6024647
+				23:[Fare<47.2251015] yes=35,no=36,missing=36,gain=1.23626947,cover=24.254858
+					35:[Fare<35] yes=47,no=48,missing=48,gain=3.43933797,cover=19.9335728
+						47:[Age<17] yes=65,no=66,missing=66,gain=0.845831394,cover=18.2551079
+							65:leaf=0.0942351446,cover=3.10267782
+							66:leaf=0.0365087651,cover=15.1524305
+						48:leaf=-0.0725565404,cover=1.67846453
+					36:[Fare<69] yes=49,no=50,missing=50,gain=0.495248318,cover=4.32128477
+						49:leaf=0.116648607,cover=2.91229105
+						50:leaf=0.0239591803,cover=1.40899372
+				24:leaf=-0.0467695855,cover=1.34760678
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.459051132,cover=4.71145344
+				25:leaf=-0.0954349637,cover=3.11599612
+				26:leaf=-0.0177195966,cover=1.59545755
+booster[9]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=45.2023735,cover=158.514313
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=6.20769882,cover=97.5096664
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.489645,cover=55.4415092
+			7:leaf=0.0273223501,cover=1.24739885
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.286798477,cover=54.1941109
+				15:[Age<27] yes=27,no=28,missing=28,gain=3.19953918,cover=40.639801
+					27:[Fare<7.25] yes=37,no=38,missing=38,gain=0.922821045,cover=30.3560638
+						37:[Age<24.5] yes=53,no=54,missing=54,gain=0.333288163,cover=5.03432941
+							53:leaf=0.00309813558,cover=2.10562634
+							54:leaf=-0.0448421836,cover=2.92870307
+						38:[Fare<15.5] yes=55,no=56,missing=56,gain=1.02858162,cover=25.3217354
+							55:leaf=-0.0886439085,cover=22.77005
+							56:leaf=-0.0149639072,cover=2.55168581
+					28:[Fare<7.7874999] yes=39,no=40,missing=40,gain=1.13296056,cover=10.2837353
+						39:leaf=-0.0596158504,cover=2.19586825
+						40:[Fare<9.58749962] yes=57,no=58,missing=58,gain=1.76941729,cover=8.08786678
+							57:leaf=0.0461704582,cover=4.63605309
+							58:leaf=-0.038381733,cover=3.45181394
+				16:[Age<62] yes=29,no=30,missing=30,gain=0.0375270844,cover=13.5543127
+					29:leaf=-0.0873674229,cover=12.3190241
+					30:leaf=-0.0269297455,cover=1.23528886
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=2.90518594,cover=42.0681534
+			9:[Age<12] yes=17,no=18,missing=18,gain=5.4190321,cover=38.0335464
+				17:leaf=0.0972914398,cover=3.75777674
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=3.12893677,cover=34.2757683
+					31:[Age<39] yes=41,no=42,missing=42,gain=2.11823821,cover=22.1633949
+						41:[Fare<36] yes=59,no=60,missing=60,gain=1.5613656,cover=8.30503368
+							59:leaf=0.095066607,cover=2.60699797
+							60:leaf=0.00912528019,cover=5.69803572
+						42:[Age<53] yes=61,no=62,missing=62,gain=0.851565659,cover=13.8583612
+							61:leaf=-0.000817369844,cover=10.0424805
+							62:leaf=-0.0520498529,cover=3.8158803
+					32:[Fare<60.1416016] yes=43,no=44,missing=44,gain=1.14593935,cover=12.1123734
+						43:[Fare<45.7374001] yes=63,no=64,missing=64,gain=3.42715001,cover=7.66683006
+							63:leaf=-0.0959298387,cover=2.9286263
+							64:leaf=0.0263668653,cover=4.738204
+						44:[Embarked<2] yes=65,no=66,missing=66,gain=0.0748109818,cover=4.44554329
+							65:leaf=-0.026465157,cover=1.0614748
+							66:leaf=-0.101068154,cover=3.38406825
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0184583664,cover=4.03461027
+				19:leaf=-0.0260699894,cover=1.06504893
+				20:leaf=-0.0928451195,cover=2.9695611
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=11.4903126,cover=61.0046539
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.27223587,cover=30.9983482
+			11:[Fare<78.75] yes=21,no=22,missing=22,gain=0.236591339,cover=29.5041065
+				21:[Age<36.5] yes=33,no=34,missing=34,gain=0.708711624,cover=13.1672392
+					33:[Fare<69.75] yes=45,no=46,missing=46,gain=0.246847153,cover=9.58101082
+						45:leaf=0.104458511,cover=8.55203629
+						46:leaf=0.0221369099,cover=1.02897406
+					34:[Fare<28.5] yes=47,no=48,missing=48,gain=0.461177409,cover=3.58622909
+						47:[Fare<13.5] yes=67,no=68,missing=68,gain=0.709819138,cover=2.4639895
+							67:leaf=-0.00669492781,cover=1.15978575
+							68:leaf=0.0840156525,cover=1.30420375
+						48:leaf=-0.012985955,cover=1.12223959
+				22:leaf=0.12727721,cover=16.3368664
+			12:leaf=0.0329779051,cover=1.49424219
+		6:[Fare<78] yes=13,no=14,missing=14,gain=5.95366526,cover=30.0063057
+			13:[Age<36.5] yes=23,no=24,missing=24,gain=1.62886143,cover=25.4772835
+				23:[Fare<47.2251015] yes=35,no=36,missing=36,gain=1.11881781,cover=24.148737
+					35:[Fare<35] yes=49,no=50,missing=50,gain=2.97755051,cover=19.8638058
+						49:[Age<17] yes=69,no=70,missing=70,gain=0.768956184,cover=18.205883
+							69:leaf=0.0878633782,cover=3.06912661
+							70:leaf=0.0331176482,cover=15.1367559
+						50:leaf=-0.0685625598,cover=1.65792263
+					36:[Fare<69] yes=51,no=52,missing=52,gain=0.420629978,cover=4.28493166
+						51:leaf=0.108892217,cover=2.88053179
+						52:leaf=0.0226031896,cover=1.40439987
+				24:leaf=-0.0444646738,cover=1.32854664
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.434262991,cover=4.52902174
+				25:leaf=-0.0923130736,cover=2.94205666
+				26:leaf=-0.0166878458,cover=1.58696485
+booster[10]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=38.6848145,cover=154.084106
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=5.34617805,cover=94.8646317
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.32616615,cover=53.5391464
+			7:leaf=0.0257898103,cover=1.24872196
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.285728455,cover=52.2904243
+				15:[Age<27] yes=27,no=28,missing=28,gain=2.81276703,cover=39.3736458
+					27:[Fare<7.25] yes=37,no=38,missing=38,gain=0.828501701,cover=29.1232376
+						37:[Fare<7.05420017] yes=55,no=56,missing=56,gain=0.337306291,cover=4.96406889
+							55:leaf=-0.0503734313,cover=1.89426041
+							56:leaf=-0.00207386515,cover=3.06980824
+						38:[Fare<15.5] yes=57,no=58,missing=58,gain=0.934737206,cover=24.1591702
+							57:leaf=-0.0844343528,cover=21.6247387
+							58:leaf=-0.0139602935,cover=2.53443146
+					28:[Fare<7.7874999] yes=39,no=40,missing=40,gain=0.997044861,cover=10.2504072
+						39:[Fare<7.22919989] yes=59,no=60,missing=60,gain=0.0221055746,cover=2.1283493
+							59:leaf=-0.0174184646,cover=1.04754186
+							60:leaf=-0.0682280511,cover=1.08080757
+						40:[Fare<9.58749962] yes=61,no=62,missing=62,gain=1.48818803,cover=8.12205791
+							61:leaf=0.0416173898,cover=4.73293829
+							62:leaf=-0.0359388106,cover=3.38911939
+				16:[Fare<7.92500019] yes=29,no=30,missing=30,gain=0.0993499756,cover=12.9167795
+					29:leaf=-0.102348976,cover=4.69112396
+					30:[Fare<8.11250019] yes=41,no=42,missing=42,gain=1.30792046,cover=8.22565556
+						41:[Age<44] yes=63,no=64,missing=64,gain=0.168433443,cover=2.17816949
+							63:leaf=-0.015663553,cover=1.02382052
+							64:leaf=0.024946155,cover=1.15434909
+						42:[Age<55] yes=65,no=66,missing=66,gain=0.248269081,cover=6.04748631
+							65:leaf=-0.0871169195,cover=5.03242016
+							66:leaf=-0.0147180399,cover=1.01506579
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=2.61130381,cover=41.3254814
+			9:[Age<12] yes=17,no=18,missing=18,gain=4.73456812,cover=37.4692879
+				17:leaf=0.092228733,cover=3.62922597
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=2.78284311,cover=33.8400612
+					31:[Age<39] yes=43,no=44,missing=44,gain=1.82017064,cover=22.0424995
+						43:[Fare<36] yes=67,no=68,missing=68,gain=1.38566506,cover=8.26395893
+							67:leaf=0.0895586833,cover=2.5547843
+							68:leaf=0.0083343666,cover=5.70917511
+						44:[Fare<36] yes=69,no=70,missing=70,gain=0.810631454,cover=13.7785406
+							69:leaf=0.00711336592,cover=7.14454317
+							70:leaf=-0.0389241353,cover=6.63399744
+					32:[Pclass<2] yes=45,no=46,missing=46,gain=1.16367865,cover=11.7975626
+						45:leaf=-0.0892522931,cover=4.31494522
+						46:[Fare<45.7374001] yes=71,no=72,missing=72,gain=2.51713896,cover=7.48261738
+							71:leaf=-0.0896358341,cover=2.45166016
+							72:leaf=0.0184760541,cover=5.03095675
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.021355629,cover=3.85619307
+				19:leaf=-0.0248619858,cover=1.05427003
+				20:leaf=-0.0898922384,cover=2.80192327
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=10.4483395,cover=59.2194786
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.266067505,cover=29.5431919
+			11:[Fare<78.75] yes=21,no=22,missing=22,gain=0.27935791,cover=28.0522633
+				21:[Age<43] yes=33,no=34,missing=34,gain=0.662249565,cover=12.7318687
+					33:[Fare<69.75] yes=47,no=48,missing=48,gain=0.176978111,cover=10.2989674
+						47:leaf=0.0953285694,cover=9.27962303
+						48:leaf=0.021119751,cover=1.01934457
+					34:[Fare<26] yes=49,no=50,missing=50,gain=0.343805254,cover=2.43290138
+						49:leaf=0.0444992445,cover=1.32111514
+						50:leaf=-0.0140743023,cover=1.11178613
+				22:leaf=0.122858122,cover=15.3203945
+			12:leaf=0.0310456362,cover=1.49092841
+		6:[Fare<78] yes=13,no=14,missing=14,gain=5.16850853,cover=29.6762848
+			13:[Age<36.5] yes=23,no=24,missing=24,gain=1.41821527,cover=25.3218956
+				23:[Fare<47.2251015] yes=35,no=36,missing=36,gain=1.01746702,cover=24.0123711
+					35:[Fare<35] yes=51,no=52,missing=52,gain=2.58254576,cover=19.7774525
+						51:[Age<17] yes=73,no=74,missing=74,gain=0.701153517,cover=18.1423588
+							73:leaf=0.0821184143,cover=3.02755427
+							74:leaf=0.0300541278,cover=15.1148052
+						52:leaf=-0.0648718104,cover=1.63509285
+					36:[Fare<69] yes=53,no=54,missing=54,gain=0.361997604,cover=4.23491907
+						53:leaf=0.102062777,cover=2.83515525
+						54:leaf=0.0213262234,cover=1.39976382
+				24:leaf=-0.0422912724,cover=1.30952418
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.411712885,cover=4.35438967
+				25:leaf=-0.0893939212,cover=2.77558708
+				26:leaf=-0.0157163478,cover=1.57880235
+booster[11]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=33.1592789,cover=149.843933
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=4.66251659,cover=92.4027939
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.18456459,cover=51.8026772
+			7:leaf=0.0243482795,cover=1.2495445
+			8:[Fare<7.92500019] yes=15,no=16,missing=16,gain=0.303531647,cover=50.5531311
+				15:[Age<30] yes=27,no=28,missing=28,gain=0.379003525,cover=22.8451385
+					27:[Age<27] yes=37,no=38,missing=38,gain=1.70503426,cover=16.2920971
+						37:[Fare<7.25] yes=51,no=52,missing=52,gain=0.873786926,cover=14.6077957
+							51:leaf=-0.0244027898,cover=4.90863228
+							52:leaf=-0.0823818967,cover=9.69916344
+						38:leaf=0.0275332164,cover=1.6843015
+					28:[Fare<7.7874999] yes=39,no=40,missing=40,gain=0.365324497,cover=6.55304098
+						39:leaf=-0.104789011,cover=5.51315641
+						40:leaf=-0.0181269627,cover=1.03988445
+				16:[Fare<8.0291996] yes=29,no=30,missing=30,gain=1.85312891,cover=27.7079945
+					29:leaf=0.0316471457,cover=2.0680747
+					30:[Fare<19.6499996] yes=41,no=42,missing=42,gain=0.576789856,cover=25.6399193
+						41:[Fare<15.5] yes=53,no=54,missing=54,gain=1.36855984,cover=22.736742
+							53:leaf=-0.0528906956,cover=21.0699215
+							54:leaf=0.0283795279,cover=1.66682112
+						42:leaf=-0.0969415158,cover=2.90317726
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=2.35927224,cover=40.6001167
+			9:[Age<12] yes=17,no=18,missing=18,gain=4.13584614,cover=36.9140778
+				17:leaf=0.0876033381,cover=3.49838066
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=2.46309829,cover=33.4156952
+					31:[Age<53] yes=43,no=44,missing=44,gain=1.67787826,cover=21.9166451
+						43:[Fare<36] yes=55,no=56,missing=56,gain=2.1831758,cover=18.1959438
+							55:leaf=0.0570279472,cover=7.35406256
+							56:leaf=-0.0102281999,cover=10.8418818
+						44:[Fare<35] yes=57,no=58,missing=58,gain=0.194886446,cover=3.72070003
+							57:leaf=-0.0637239143,cover=2.08124924
+							58:leaf=-0.0116316043,cover=1.63945067
+					32:[Age<32.5] yes=45,no=46,missing=46,gain=1.14731646,cover=11.499053
+						45:[Fare<60.1416016] yes=59,no=60,missing=60,gain=1.54842257,cover=8.70381069
+							59:leaf=0.00617392035,cover=5.71752167
+							60:leaf=-0.0740582719,cover=2.98628926
+						46:leaf=-0.0971948802,cover=2.79524183
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0241928101,cover=3.68603849
+				19:leaf=-0.0237130616,cover=1.04381311
+				20:leaf=-0.0871160701,cover=2.64222527
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=9.49861908,cover=57.4411354
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.259847641,cover=28.1082001
+			11:[Fare<42.4000015] yes=21,no=22,missing=22,gain=0.343265533,cover=26.6211185
+				21:[Age<50] yes=33,no=34,missing=34,gain=0.675589561,cover=7.42809725
+					33:[Age<28] yes=47,no=48,missing=48,gain=0.418543816,cover=6.24641275
+						47:leaf=0.0221548993,cover=1.94841158
+						48:leaf=0.0923435166,cover=4.29800129
+					34:leaf=-0.00276276073,cover=1.18168437
+				22:leaf=0.11279583,cover=19.1930218
+			12:leaf=0.0292348862,cover=1.48708129
+		6:[Fare<78] yes=13,no=14,missing=14,gain=4.49817944,cover=29.3329353
+			13:[Age<6] yes=23,no=24,missing=24,gain=1.2613306,cover=25.1448193
+				23:leaf=0.0961944088,cover=2.08223963
+				24:[Age<15] yes=35,no=36,missing=36,gain=1.00125468,cover=23.0625801
+					35:leaf=-0.0382088348,cover=1.45879757
+					36:[Age<36.5] yes=49,no=50,missing=50,gain=1.14851928,cover=21.6037827
+						49:[Age<17] yes=61,no=62,missing=62,gain=0.609853983,cover=20.3131104
+							61:leaf=0.091099456,cover=1.17014849
+							62:leaf=0.0295533817,cover=19.1429615
+						50:leaf=-0.0402389392,cover=1.29067135
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.390939713,cover=4.18811607
+				25:leaf=-0.0866465941,cover=2.61714244
+				26:leaf=-0.0148014743,cover=1.5709734
+booster[12]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=28.4148712,cover=145.801376
+	1:[Fare<26.2875004] yes=3,no=4,missing=4,gain=3.97952366,cover=90.0825043
+		3:[Age<16] yes=7,no=8,missing=8,gain=1.05268955,cover=50.1358604
+			7:leaf=0.0229915194,cover=1.24994028
+			8:[Age<32.5] yes=15,no=16,missing=16,gain=0.319333076,cover=48.8859215
+				15:[Age<31] yes=27,no=28,missing=28,gain=2.48868465,cover=37.0567513
+					27:[Age<27] yes=37,no=38,missing=38,gain=0.812070847,cover=34.5424805
+						37:[Fare<7.25] yes=53,no=54,missing=54,gain=0.695425987,cover=27.0367088
+							53:leaf=-0.0226322729,cover=4.84502697
+							54:leaf=-0.0707706138,cover=22.1916828
+						38:[Age<28] yes=55,no=56,missing=56,gain=1.2414031,cover=7.50577116
+							55:leaf=0.0434211902,cover=1.40624309
+							56:leaf=-0.0411350615,cover=6.09952831
+					28:leaf=0.0369496532,cover=2.51427197
+				16:[Fare<7.92500019] yes=29,no=30,missing=30,gain=0.146545887,cover=11.8291683
+					29:leaf=-0.0964810923,cover=4.13113499
+					30:[Fare<8.11250019] yes=39,no=40,missing=40,gain=1.16823077,cover=7.69803333
+						39:[Age<44] yes=57,no=58,missing=58,gain=0.158211589,cover=2.14399147
+							57:leaf=-0.0139954109,cover=1.00052059
+							58:leaf=0.0258082151,cover=1.143471
+						40:[Age<53] yes=59,no=60,missing=60,gain=0.00766634941,cover=5.55404186
+							59:leaf=-0.0792797878,cover=4.29872608
+							60:leaf=-0.0249950979,cover=1.2553159
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=2.11852074,cover=39.94664
+			9:[Age<12] yes=17,no=18,missing=18,gain=3.64246225,cover=36.4221535
+				17:leaf=0.083340697,cover=3.36755514
+				18:[Pclass<1] yes=31,no=32,missing=32,gain=2.1453166,cover=33.0545998
+					31:[Age<39] yes=41,no=42,missing=42,gain=1.54521453,cover=21.801012
+						41:[Age<24.5] yes=61,no=62,missing=62,gain=1.26224804,cover=8.16357327
+							61:leaf=-0.0285573881,cover=1.66860032
+							62:leaf=0.0553454272,cover=6.49497318
+						42:[Age<48] yes=63,no=64,missing=64,gain=0.91322422,cover=13.6374388
+							63:leaf=-0.0384362899,cover=6.9760108
+							64:leaf=0.0104935598,cover=6.66142845
+					32:[Age<32.5] yes=43,no=44,missing=44,gain=1.06168818,cover=11.2535877
+						43:[Fare<42.4000015] yes=65,no=66,missing=66,gain=1.52496123,cover=8.60120773
+							65:leaf=-0.0832540691,cover=2.02890491
+							66:leaf=0.00218949164,cover=6.57230234
+						44:leaf=-0.0937479138,cover=2.65238047
+			10:[Age<4] yes=19,no=20,missing=20,gain=0.0268645287,cover=3.52448463
+				19:leaf=-0.0226199161,cover=1.03368771
+				20:leaf=-0.0844909027,cover=2.49079704
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=8.62179756,cover=55.7188721
+		5:[Fare<606.200012] yes=11,no=12,missing=12,gain=0.253223419,cover=26.7034378
+			11:[Fare<78.75] yes=21,no=22,missing=22,gain=0.446695328,cover=25.2206173
+				21:[Age<36.5] yes=33,no=34,missing=34,gain=0.654094219,cover=11.8223057
+					33:[FamilySize<1] yes=45,no=46,missing=46,gain=0.133263111,cover=8.41002369
+						45:leaf=0.0223212391,cover=1.10769415
+						46:leaf=0.0907800272,cover=7.30232954
+					34:[Fare<28.5] yes=47,no=48,missing=48,gain=0.443130136,cover=3.41228175
+						47:[Fare<13.5] yes=67,no=68,missing=68,gain=0.752657056,cover=2.33264327
+							67:leaf=-0.0132296262,cover=1.11443782
+							68:leaf=0.0778286457,cover=1.21820545
+						48:leaf=-0.0184747931,cover=1.07963848
+				22:leaf=0.115755729,cover=13.3983116
+			12:leaf=0.0275364947,cover=1.48282039
+		6:[Fare<78] yes=13,no=14,missing=14,gain=3.92790294,cover=29.0154362
+			13:[Age<6] yes=23,no=24,missing=24,gain=1.18522596,cover=24.9849472
+				23:leaf=0.0923253819,cover=1.99876642
+				24:[Fare<7.7750001] yes=35,no=36,missing=36,gain=0.976006866,cover=22.9861813
+					35:[Fare<7.6500001] yes=49,no=50,missing=50,gain=0.000660657883,cover=6.02590752
+						49:[Fare<7.25] yes=69,no=70,missing=70,gain=0.0646198094,cover=2.35833263
+							69:leaf=0.0370821618,cover=1.14941263
+							70:leaf=0.00410586735,cover=1.20892
+						50:leaf=0.0629278868,cover=3.66757512
+					36:[Age<15] yes=51,no=52,missing=52,gain=1.06208253,cover=16.9602737
+						51:leaf=-0.0563118719,cover=1.22432423
+						52:[Fare<30] yes=71,no=72,missing=72,gain=1.10280037,cover=15.7359486
+							71:leaf=-0.00505313836,cover=9.24972439
+							72:leaf=0.0460938588,cover=6.48622417
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.371603966,cover=4.03048897
+				25:leaf=-0.0840463042,cover=2.46701193
+				26:leaf=-0.013939837,cover=1.56347692
+booster[13]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=24.4503117,cover=141.987839
+	1:[Age<10] yes=3,no=4,missing=4,gain=3.4279604,cover=87.9284821
+		3:[FamilySize<2] yes=7,no=8,missing=8,gain=3.55572391,cover=5.54818058
+			7:[Fare<90] yes=15,no=16,missing=16,gain=0.157211065,cover=3.54554629
+				15:leaf=0.104513526,cover=2.40141582
+				16:leaf=0.0253712516,cover=1.14413047
+			8:leaf=-0.0525673591,cover=2.00263405
+		4:[Pclass<1] yes=9,no=10,missing=10,gain=4.06527805,cover=82.3803024
+			9:[Age<39] yes=17,no=18,missing=18,gain=1.59737062,cover=23.539587
+				17:[Age<32] yes=29,no=30,missing=30,gain=0.875520468,cover=8.7413044
+					29:[Fare<127.333504] yes=41,no=42,missing=42,gain=1.13229346,cover=5.0181241
+						41:[Fare<105.375] yes=59,no=60,missing=60,gain=1.5639056,cover=3.23501062
+							59:leaf=-0.0210911687,cover=2.04342437
+							60:leaf=0.0927478895,cover=1.19158614
+						42:leaf=-0.0492710695,cover=1.78311336
+					30:[Age<36.5] yes=43,no=44,missing=44,gain=0.187468529,cover=3.72318006
+						43:leaf=0.0719672292,cover=2.63471293
+						44:leaf=0.0112920972,cover=1.08846724
+				18:[Age<48] yes=31,no=32,missing=32,gain=0.94003129,cover=14.7982826
+					31:[Age<43] yes=45,no=46,missing=46,gain=0.973655343,cover=7.82413769
+						45:[Fare<28.5] yes=61,no=62,missing=62,gain=0.893550575,cover=5.42804384
+							61:leaf=-0.052389212,cover=2.23632932
+							62:leaf=0.0182639752,cover=3.19171429
+						46:leaf=-0.086264655,cover=2.39609432
+					32:[Age<50] yes=47,no=48,missing=48,gain=3.92099667,cover=6.97414541
+						47:leaf=0.114226595,cover=1.38207293
+						48:[FamilySize<1] yes=63,no=64,missing=64,gain=0.641293287,cover=5.59207249
+							63:leaf=0.0204526279,cover=1.0746299
+							64:leaf=-0.050112702,cover=4.51744223
+			10:[Age<32.5] yes=19,no=20,missing=20,gain=0.918215752,cover=58.8407135
+				19:[Age<31] yes=33,no=34,missing=34,gain=4.13595104,cover=46.182209
+					33:[Embarked<1] yes=49,no=50,missing=50,gain=1.48603249,cover=42.3332481
+						49:[Fare<29] yes=65,no=66,missing=66,gain=0.814493954,cover=7.62083006
+							65:leaf=-0.0261339843,cover=6.30030107
+							66:leaf=0.0423084944,cover=1.32052922
+						50:[Fare<7.05000019] yes=67,no=68,missing=68,gain=0.603474617,cover=34.7124176
+							67:leaf=-0.000636872137,cover=1.60269547
+							68:leaf=-0.0638253316,cover=33.1097221
+					34:[Fare<11.5] yes=51,no=52,missing=52,gain=0.305003405,cover=3.84895968
+						51:leaf=0.0141003551,cover=2.35214877
+						52:leaf=0.0725566074,cover=1.49681091
+				20:[Age<61] yes=35,no=36,missing=36,gain=0.225465775,cover=12.6585073
+					35:[Fare<8.11250019] yes=53,no=54,missing=54,gain=0.0899000168,cover=11.6044521
+						53:[Fare<7.92500019] yes=69,no=70,missing=70,gain=1.24286759,cover=4.71178722
+							69:leaf=-0.084675245,cover=2.55853033
+							70:leaf=0.00816378277,cover=2.15325689
+						54:leaf=-0.09399876,cover=6.89266443
+					36:leaf=-0.0145521779,cover=1.05405509
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=7.83332443,cover=54.0593529
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.286308289,cover=25.3666706
+			11:[Age<36.5] yes=21,no=22,missing=22,gain=0.651648283,cover=3.72898674
+				21:leaf=0.065626815,cover=2.61009121
+				22:leaf=-0.0125045804,cover=1.11889541
+			12:[Fare<606.200012] yes=23,no=24,missing=24,gain=0.346763611,cover=21.6376839
+				23:leaf=0.101164892,cover=20.1594372
+				24:leaf=0.0259421952,cover=1.47824717
+		6:[Fare<78] yes=13,no=14,missing=14,gain=3.4527483,cover=28.6926823
+			13:[Age<28] yes=25,no=26,missing=26,gain=1.15351796,cover=24.8110905
+				25:[Age<6] yes=37,no=38,missing=38,gain=0.705890656,cover=19.7374039
+					37:leaf=0.0887754783,cover=1.91513371
+					38:[Fare<8.05000019] yes=55,no=56,missing=56,gain=1.47816515,cover=17.8222694
+						55:[Embarked<2] yes=71,no=72,missing=72,gain=0.771044254,cover=9.04867458
+							71:leaf=0.0746775419,cover=6.08700752
+							72:leaf=0.0100135719,cover=2.96166754
+						56:[Fare<29] yes=73,no=74,missing=74,gain=1.70945859,cover=8.77359486
+							73:leaf=-0.0392253958,cover=4.42085266
+							74:leaf=0.0404436141,cover=4.3527422
+				26:[Fare<9.2166996] yes=39,no=40,missing=40,gain=0.420744359,cover=5.07368708
+					39:leaf=-0.0463619605,cover=1.20367038
+					40:[Age<36.5] yes=57,no=58,missing=58,gain=0.724990427,cover=3.87001681
+						57:[Age<30.5] yes=75,no=76,missing=76,gain=0.113464594,cover=2.59814715
+							75:leaf=0.00415063603,cover=1.16237855
+							76:leaf=0.0462272614,cover=1.4357686
+						58:leaf=-0.0385655016,cover=1.27186978
+			14:[Fare<219.712494] yes=27,no=28,missing=28,gain=0.353459835,cover=3.8815918
+				27:leaf=-0.0815731585,cover=2.32528162
+				28:leaf=-0.0131282927,cover=1.55631018
+booster[14]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=20.7169151,cover=138.134018
+	1:[Pclass<1] yes=3,no=4,missing=4,gain=2.98602104,cover=85.809288
+		3:[Age<38] yes=7,no=8,missing=8,gain=1.6621455,cover=23.7886009
+			7:[FamilySize<1] yes=15,no=16,missing=16,gain=0.792953849,cover=8.49731159
+				15:leaf=0.081706956,cover=1.54345572
+				16:[Fare<36] yes=31,no=32,missing=32,gain=1.91444385,cover=6.95385551
+					31:leaf=0.069825314,cover=2.51833081
+					32:[Fare<105.375] yes=49,no=50,missing=50,gain=1.2255851,cover=4.43552494
+						49:leaf=-0.0842182338,cover=1.1529845
+						50:[Age<24.5] yes=67,no=68,missing=68,gain=1.36271596,cover=3.28254056
+							67:leaf=-0.0490048453,cover=1.33059418
+							68:leaf=0.0536071435,cover=1.95194626
+			8:[Age<48] yes=17,no=18,missing=18,gain=0.77749896,cover=15.2912893
+				17:[Age<43] yes=33,no=34,missing=34,gain=0.961910367,cover=8.35987282
+					33:[Fare<28.5] yes=51,no=52,missing=52,gain=0.959625483,cover=6.01992321
+						51:leaf=-0.0519097522,cover=2.3291266
+						52:[Fare<36] yes=69,no=70,missing=70,gain=1.6736362,cover=3.69079638
+							69:leaf=0.0734897032,cover=1.67745578
+							70:leaf=-0.0360981859,cover=2.01334047
+					34:leaf=-0.0815973803,cover=2.33994985
+				18:[Age<50] yes=35,no=36,missing=36,gain=3.39463401,cover=6.93141651
+					35:leaf=0.10602317,cover=1.41561007
+					36:[Fare<218.925003] yes=53,no=54,missing=54,gain=0.752657115,cover=5.5158062
+						53:[Fare<36] yes=71,no=72,missing=72,gain=0.823464632,cover=4.51458883
+							71:leaf=-0.00829480588,cover=2.85794687
+							72:leaf=-0.0889687613,cover=1.65664196
+						54:leaf=0.0272428151,cover=1.00121725
+		4:[Age<10] yes=9,no=10,missing=10,gain=3.23991394,cover=62.0206871
+			9:[Fare<90] yes=19,no=20,missing=20,gain=3.31790805,cover=5.00158787
+				19:leaf=0.100220278,cover=2.30184555
+				20:[Age<3] yes=37,no=38,missing=38,gain=0.24527961,cover=2.69974256
+					37:leaf=-0.0589589775,cover=1.34879684
+					38:leaf=-0.00304847397,cover=1.35094571
+			10:[Age<32.5] yes=21,no=22,missing=22,gain=0.915898323,cover=57.0191002
+				21:[Age<31] yes=39,no=40,missing=40,gain=3.60216904,cover=44.9201851
+					39:[Embarked<1] yes=55,no=56,missing=56,gain=1.32482624,cover=41.016449
+						55:[Fare<29] yes=73,no=74,missing=74,gain=0.709144652,cover=7.56424999
+							73:leaf=-0.0241360329,cover=6.22642136
+							74:leaf=0.0395898484,cover=1.3378284
+						56:[Fare<7.2249999] yes=75,no=76,missing=76,gain=0.550853729,cover=33.4522018
+							75:leaf=-0.00963275321,cover=2.68451118
+							76:leaf=-0.0609370433,cover=30.7676907
+					40:[Fare<11.5] yes=57,no=58,missing=58,gain=0.262384236,cover=3.90373564
+						57:leaf=0.0130641302,cover=2.36354733
+						58:leaf=0.0669798777,cover=1.54018831
+				22:[Age<39] yes=41,no=42,missing=42,gain=0.269104958,cover=12.0989141
+					41:leaf=-0.097601451,cover=4.50270748
+					42:[Age<45.5] yes=59,no=60,missing=60,gain=0.805015326,cover=7.59620619
+						59:[Fare<13.5] yes=77,no=78,missing=78,gain=1.43809342,cover=3.62592053
+							77:leaf=0.0333916955,cover=2.33195901
+							78:leaf=-0.0698204339,cover=1.29396152
+						60:[Age<61] yes=79,no=80,missing=80,gain=0.277819157,cover=3.97028565
+							79:leaf=-0.0889959857,cover=2.92579651
+							80:leaf=-0.0138734151,cover=1.04448926
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=7.04117012,cover=52.3247375
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.334667206,cover=24.0679207
+			11:[Age<43] yes=23,no=24,missing=24,gain=0.62442112,cover=10.934144
+				23:[FamilySize<1] yes=43,no=44,missing=44,gain=0.139736652,cover=8.6761837
+					43:leaf=0.0165885817,cover=1.03753269
+					44:[Age<36.5] yes=61,no=62,missing=62,gain=0.023607254,cover=7.63865089
+						61:leaf=0.0828120336,cover=6.60241461
+						62:leaf=0.0230657533,cover=1.03623617
+				24:[Fare<26] yes=45,no=46,missing=46,gain=0.366312534,cover=2.2579608
+					45:leaf=0.0360692218,cover=1.21474493
+					46:leaf=-0.0232432522,cover=1.04321575
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.530875206,cover=13.1337767
+				25:leaf=0.110188521,cover=11.6603279
+				26:leaf=0.0244445708,cover=1.4734484
+		6:[Fare<78] yes=13,no=14,missing=14,gain=3.04020929,cover=28.256815
+			13:[Age<6] yes=27,no=28,missing=28,gain=1.03201997,cover=24.5154648
+				27:leaf=0.0854960606,cover=1.83237231
+				28:[Age<21.5] yes=47,no=48,missing=48,gain=0.729986072,cover=22.6830921
+					47:[Fare<29] yes=63,no=64,missing=64,gain=0.859711051,cover=6.19751835
+						63:[Age<17] yes=81,no=82,missing=82,gain=1.18196929,cover=4.98185301
+							81:leaf=0.0569086932,cover=2.07636237
+							82:leaf=-0.0264014639,cover=2.90549064
+						64:leaf=-0.0611803532,cover=1.21566522
+					48:[Age<28] yes=65,no=66,missing=66,gain=1.2851491,cover=16.4855747
+						65:[Fare<8.0291996] yes=83,no=84,missing=84,gain=0.809543848,cover=11.4385967
+							83:leaf=0.0687413812,cover=6.36629772
+							84:leaf=0.0134781739,cover=5.072299
+						66:[Age<32.5] yes=85,no=86,missing=86,gain=0.417303085,cover=5.04697704
+							85:leaf=-0.0302837044,cover=3.06740379
+							86:leaf=0.0195560772,cover=1.97957313
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.336327553,cover=3.74135137
+				29:leaf=-0.0792111456,cover=2.19188285
+				30:leaf=-0.0123638632,cover=1.54946852
+booster[15]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=17.714016,cover=134.554565
+	1:[Age<13] yes=3,no=4,missing=4,gain=2.58555746,cover=83.8118439
+		3:[FamilySize<2] yes=7,no=8,missing=8,gain=3.21871161,cover=6.16621923
+			7:leaf=0.077189289,cover=4.02348423
+			8:leaf=-0.0534843914,cover=2.14273548
+		4:[Pclass<1] yes=9,no=10,missing=10,gain=2.91488552,cover=77.6456223
+			9:[Age<53] yes=15,no=16,missing=16,gain=1.16112065,cover=23.0043678
+				15:[Age<48] yes=27,no=28,missing=28,gain=1.72952414,cover=19.153326
+					27:[Age<43] yes=41,no=42,missing=42,gain=2.02258372,cover=16.1080036
+						41:[Fare<36] yes=57,no=58,missing=58,gain=0.861097991,cover=13.8260994
+							57:leaf=0.0338091142,cover=6.44825697
+							58:leaf=-0.0131548112,cover=7.3778429
+						42:leaf=-0.0772940293,cover=2.28190351
+					28:[Age<50] yes=43,no=44,missing=44,gain=0.631157279,cover=3.0453229
+						43:leaf=0.098761633,cover=1.43988609
+						44:leaf=0.0104181226,cover=1.6054368
+				16:[Embarked<1] yes=29,no=30,missing=30,gain=0.21780467,cover=3.85104108
+					29:leaf=-0.00972898211,cover=1.61572111
+					30:leaf=-0.0622632988,cover=2.23531985
+			10:[Age<32.5] yes=17,no=18,missing=18,gain=0.913928986,cover=54.6412544
+				17:[Age<31] yes=31,no=32,missing=32,gain=3.1440711,cover=43.0264397
+					31:[Embarked<1] yes=45,no=46,missing=46,gain=1.04036999,cover=39.0736847
+						45:[Fare<29] yes=59,no=60,missing=60,gain=0.64629066,cover=7.01116133
+							59:leaf=-0.0242610034,cover=5.65790033
+							60:leaf=0.0370664559,cover=1.35326087
+						46:[Fare<7.2249999] yes=61,no=62,missing=62,gain=0.474003792,cover=32.0625267
+							61:leaf=-0.00897083525,cover=2.66895127
+							62:leaf=-0.0567958765,cover=29.3935738
+					32:[Fare<11.5] yes=47,no=48,missing=48,gain=0.226375461,cover=3.9527545
+						47:leaf=0.0121065369,cover=2.37398148
+						48:leaf=0.0619268417,cover=1.57877302
+				18:[Age<39] yes=33,no=34,missing=34,gain=0.260150433,cover=11.6148138
+					33:leaf=-0.0949446261,cover=4.20899391
+					34:[Age<45.5] yes=49,no=50,missing=50,gain=0.730100036,cover=7.40581989
+						49:[Fare<13.5] yes=63,no=64,missing=64,gain=1.28970444,cover=3.61845064
+							63:leaf=0.0305851996,cover=2.38045979
+							64:leaf=-0.0676172152,cover=1.23799086
+						50:[Age<61] yes=65,no=66,missing=66,gain=0.261495113,cover=3.78736925
+							65:leaf=-0.0863860622,cover=2.75197983
+							66:leaf=-0.0132266078,cover=1.03538942
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=6.40517902,cover=50.7427292
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.359144211,cover=22.8636055
+			11:[Age<43] yes=19,no=20,missing=20,gain=0.564301014,cover=10.5842409
+				19:[Age<28] yes=35,no=36,missing=36,gain=0.186466217,cover=8.33372688
+					35:[Age<23.5] yes=51,no=52,missing=52,gain=1.81461477,cover=3.80428863
+						51:leaf=0.0846626088,cover=2.07549238
+						52:leaf=-0.0307594389,cover=1.72879624
+					36:[Age<36.5] yes=53,no=54,missing=54,gain=0.134460926,cover=4.5294385
+						53:leaf=0.0959070921,cover=3.50309038
+						54:leaf=0.0220043883,cover=1.02634799
+				20:[Fare<26] yes=37,no=38,missing=38,gain=0.329875618,cover=2.25051332
+					37:leaf=0.0343611762,cover=1.19818902
+					38:leaf=-0.0219534468,cover=1.0523243
+			12:[Fare<606.200012] yes=21,no=22,missing=22,gain=0.530990601,cover=12.2793646
+				21:leaf=0.107633509,cover=10.8108673
+				22:leaf=0.0230369288,cover=1.4684968
+		6:[Fare<78] yes=13,no=14,missing=14,gain=2.6782074,cover=27.8791237
+			13:[Age<6] yes=23,no=24,missing=24,gain=0.967242837,cover=24.2695446
+				23:leaf=0.0824481249,cover=1.75126457
+				24:[Age<15] yes=39,no=40,missing=40,gain=0.721689761,cover=22.51828
+					39:leaf=-0.0356672555,cover=1.43629313
+					40:[Age<36.5] yes=55,no=56,missing=56,gain=0.839288831,cover=21.0819874
+						55:[Fare<47.2251015] yes=67,no=68,missing=68,gain=0.698350787,cover=19.8190231
+							67:leaf=0.0186417382,cover=17.1922894
+							68:leaf=0.0692694262,cover=2.62673306
+						56:leaf=-0.0376526192,cover=1.26296329
+			14:[Fare<219.712494] yes=25,no=26,missing=26,gain=0.3200773,cover=3.60957885
+				25:leaf=-0.076947391,cover=2.06663394
+				26:leaf=-0.0116438074,cover=1.54294491
+booster[16]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=15.18258,cover=131.299728
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=2.4513855,cover=81.9465866
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.694476128,cover=19.3799782
+			7:[Age<27] yes=15,no=16,missing=16,gain=1.5099895,cover=13.9140911
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.796185493,cover=12.3357821
+					31:[Fare<7.75] yes=45,no=46,missing=46,gain=0.681664288,cover=9.04050446
+						45:[Fare<7.25] yes=61,no=62,missing=62,gain=0.653731227,cover=6.82612228
+							61:leaf=-0.0160086211,cover=4.61174011
+							62:leaf=-0.0796126053,cover=2.21438193
+						46:[Age<24.5] yes=63,no=64,missing=64,gain=0.158476382,cover=2.21438193
+							63:leaf=-0.01035586,cover=1.04891777
+							64:leaf=0.0301612001,cover=1.16546416
+					32:leaf=-0.0888510719,cover=3.2952776
+				16:leaf=0.0363230146,cover=1.57830906
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.192299366,cover=5.46588802
+				17:leaf=-0.0964122787,cover=4.30261326
+				18:leaf=-0.0224151928,cover=1.16327465
+		4:[Age<7] yes=9,no=10,missing=10,gain=1.60695601,cover=62.5666046
+			9:[Fare<90] yes=19,no=20,missing=20,gain=1.52045941,cover=3.95903635
+				19:leaf=0.0890389755,cover=1.77938533
+				20:[Fare<219.712494] yes=33,no=34,missing=34,gain=0.413594544,cover=2.17965102
+					33:leaf=-0.0449988358,cover=1.07192767
+					34:leaf=0.0194592457,cover=1.10772347
+			10:[Pclass<1] yes=21,no=22,missing=22,gain=1.78171301,cover=58.6075668
+				21:[Age<53] yes=35,no=36,missing=36,gain=1.26631689,cover=22.3098335
+					35:[Fare<36] yes=47,no=48,missing=48,gain=1.38130713,cover=18.5339375
+						47:[Fare<28.9083996] yes=65,no=66,missing=66,gain=1.08307385,cover=7.50262928
+							65:leaf=0.00789763685,cover=4.48729753
+							66:leaf=0.0814001113,cover=3.01533151
+						48:[Fare<80] yes=67,no=68,missing=68,gain=3.17459345,cover=11.0313091
+							67:leaf=-0.0974094272,cover=2.08693409
+							68:leaf=0.0188281629,cover=8.94437504
+					36:[Embarked<1] yes=49,no=50,missing=50,gain=0.197076559,cover=3.77589488
+						49:leaf=-0.00915325992,cover=1.60887444
+						50:leaf=-0.0592784099,cover=2.16702056
+				22:[Fare<8.30000019] yes=37,no=38,missing=38,gain=1.61721182,cover=36.2977333
+					37:[Age<21.5] yes=51,no=52,missing=52,gain=0.506683588,cover=7.22675323
+						51:leaf=0.0452059358,cover=1.53583086
+						52:[Fare<8.0291996] yes=69,no=70,missing=70,gain=1.69215465,cover=5.69092274
+							69:leaf=0.0597943328,cover=1.56660759
+							70:leaf=-0.0398263559,cover=4.12431526
+					38:[Fare<72.4499969] yes=53,no=54,missing=54,gain=0.967726707,cover=29.070982
+						53:[Fare<45.7374001] yes=71,no=72,missing=72,gain=3.10573053,cover=24.9462223
+							71:leaf=-0.0532461181,cover=18.9047985
+							72:leaf=0.0253948327,cover=6.04142284
+						54:leaf=-0.0858975574,cover=4.12475872
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=5.88341141,cover=49.3531456
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.384413719,cover=21.761591
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.538378537,cover=3.39131331
+				23:[Fare<12.875] yes=39,no=40,missing=40,gain=0.0689005852,cover=2.2859211
+					39:leaf=0.0681221858,cover=1.22702622
+					40:leaf=0.0147765819,cover=1.05889487
+				24:leaf=-0.014885609,cover=1.10539222
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.333268166,cover=18.3702774
+				25:[Fare<78.75] yes=41,no=42,missing=42,gain=0.0906152725,cover=16.9068241
+					41:[Age<26] yes=55,no=56,missing=56,gain=0.324920416,cover=6.89586306
+						55:leaf=0.0879576728,cover=2.53297734
+						56:[Fare<28.5] yes=73,no=74,missing=74,gain=0.907657027,cover=4.36288595
+							73:leaf=0.0777110383,cover=1.42282057
+							74:leaf=-0.00376092433,cover=2.94006538
+					42:leaf=0.105278447,cover=10.0109615
+				26:leaf=0.0217131581,cover=1.46345401
+		6:[Fare<78] yes=13,no=14,missing=14,gain=2.35468841,cover=27.5915546
+			13:[Age<6] yes=27,no=28,missing=28,gain=0.913090587,cover=24.1055527
+				27:leaf=0.0796001777,cover=1.67238998
+				28:[Fare<7.7750001] yes=43,no=44,missing=44,gain=0.633419573,cover=22.4331627
+					43:[Fare<7.6500001] yes=57,no=58,missing=58,gain=0.0419141054,cover=5.70159483
+						57:[Fare<7.25] yes=75,no=76,missing=76,gain=0.0733183846,cover=2.27293038
+							75:leaf=0.0293844528,cover=1.08957422
+							76:leaf=-0.000978405005,cover=1.18335617
+						58:leaf=0.0504335947,cover=3.42866421
+					44:[Age<15] yes=59,no=60,missing=60,gain=0.823120892,cover=16.7315693
+						59:leaf=-0.0523248427,cover=1.20962417
+						60:[Fare<30] yes=77,no=78,missing=78,gain=0.774139762,cover=15.521944
+							77:leaf=-0.0061300667,cover=9.11161709
+							78:leaf=0.0368377306,cover=6.41032696
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.304615259,cover=3.48600149
+				29:leaf=-0.0747715905,cover=1.94926977
+				30:leaf=-0.0109655224,cover=1.5367316
+booster[17]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=13.1378651,cover=128.345825
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=2.22507238,cover=80.2848206
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.659095764,cover=18.7552586
+			7:[Age<27] yes=15,no=16,missing=16,gain=1.34614635,cover=13.584919
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.757910728,cover=11.9761133
+					31:[Fare<7.75] yes=43,no=44,missing=44,gain=0.610748768,cover=8.88977146
+						43:[Fare<7.25] yes=57,no=58,missing=58,gain=0.620841622,cover=6.65746784
+							57:leaf=-0.0148098934,cover=4.56972885
+							58:leaf=-0.0773326531,cover=2.08773923
+						44:[Age<24.5] yes=59,no=60,missing=60,gain=0.140327007,cover=2.23230314
+							59:leaf=-0.00986584183,cover=1.04099834
+							60:leaf=0.0281836372,cover=1.1913048
+					32:leaf=-0.0864575729,cover=3.08634186
+				16:leaf=0.0336796306,cover=1.60880613
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.185290337,cover=5.17033911
+				17:leaf=-0.0938047916,cover=4.02227497
+				18:leaf=-0.021367969,cover=1.14806414
+		4:[Age<10] yes=9,no=10,missing=10,gain=1.44977653,cover=61.5295639
+			9:[FamilySize<2] yes=19,no=20,missing=20,gain=2.43317151,cover=4.96325207
+				19:[Fare<90] yes=33,no=34,missing=34,gain=0.0922362804,cover=3.14816356
+					33:leaf=0.0904434174,cover=2.04350662
+					34:leaf=0.0222747736,cover=1.10465682
+				20:leaf=-0.0450467467,cover=1.81508839
+			10:[Pclass<1] yes=21,no=22,missing=22,gain=1.58580685,cover=56.5663109
+				21:[Age<39] yes=35,no=36,missing=36,gain=1.15240526,cover=22.1787739
+					35:[Age<32] yes=45,no=46,missing=46,gain=0.958660543,cover=8.29283714
+						45:[Fare<127.333504] yes=61,no=62,missing=62,gain=1.03945541,cover=4.90928221
+							61:leaf=0.0306303538,cover=3.15761685
+							62:leaf=-0.0486052334,cover=1.75166547
+						46:leaf=0.0630423799,cover=3.38355494
+					36:[Age<48] yes=47,no=48,missing=48,gain=0.647633791,cover=13.8859367
+						47:[Fare<36] yes=63,no=64,missing=64,gain=0.993304968,cover=7.10966587
+							63:leaf=-0.00287201325,cover=4.48820114
+							64:leaf=-0.073946327,cover=2.62146449
+						48:[Age<50] yes=65,no=66,missing=66,gain=2.50638771,cover=6.77627134
+							65:leaf=0.0911610946,cover=1.45910275
+							66:leaf=-0.0279137231,cover=5.31716871
+				22:[Fare<8.30000019] yes=37,no=38,missing=38,gain=1.54247308,cover=34.3875351
+					37:[Age<31] yes=49,no=50,missing=50,gain=0.474723607,cover=7.19335842
+						49:[Age<21.5] yes=67,no=68,missing=68,gain=1.29745376,cover=3.92384481
+							67:leaf=0.0416721627,cover=1.58177304
+							68:leaf=-0.0533282124,cover=2.34207201
+						50:[Fare<8.0291996] yes=69,no=70,missing=70,gain=0.38071537,cover=3.26951361
+							69:leaf=0.0555619076,cover=1.59213233
+							70:leaf=-0.00360035081,cover=1.67738128
+					38:[Age<19] yes=51,no=52,missing=52,gain=1.07019138,cover=27.1941776
+						51:leaf=-0.0878785253,cover=3.87330532
+						52:[Age<32.5] yes=71,no=72,missing=72,gain=1.64933944,cover=23.3208733
+							71:leaf=-0.0146422265,cover=17.1831989
+							72:leaf=-0.0730755627,cover=6.13767338
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=5.39325428,cover=48.0610085
+		5:[Fare<42.4000015] yes=11,no=12,missing=12,gain=0.380161285,cover=20.7598591
+			11:[Fare<28.5] yes=23,no=24,missing=24,gain=0.544267654,cover=6.21247482
+				23:[Fare<13.5] yes=39,no=40,missing=40,gain=0.0372520685,cover=4.85533094
+					39:[Age<36.5] yes=53,no=54,missing=54,gain=0.493654668,cover=3.33530426
+						53:[Fare<12.875] yes=73,no=74,missing=74,gain=0.06592381,cover=2.22471094
+							73:leaf=0.0659716353,cover=1.17558134
+							74:leaf=0.0140869189,cover=1.04912961
+						54:leaf=-0.0140674729,cover=1.11059332
+					40:leaf=0.0780076757,cover=1.52002668
+				24:leaf=-0.00746299652,cover=1.35714412
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.405358315,cover=14.5473833
+				25:leaf=0.0945156589,cover=13.0890121
+				26:leaf=0.0204676967,cover=1.4583714
+		6:[Fare<78] yes=13,no=14,missing=14,gain=2.08490133,cover=27.3011494
+			13:[Age<6] yes=27,no=28,missing=28,gain=0.854726553,cover=23.9308586
+				27:leaf=0.0769265741,cover=1.59616303
+				28:[Age<36.5] yes=41,no=42,missing=42,gain=0.602157772,cover=22.3346958
+					41:[Age<21.5] yes=55,no=56,missing=56,gain=0.761490464,cover=21.0908298
+						55:[Age<18] yes=75,no=76,missing=76,gain=0.793377221,cover=6.13219309
+							75:leaf=0.0238767788,cover=2.98189974
+							76:leaf=-0.0389043577,cover=3.15029335
+						56:[Fare<47.2251015] yes=77,no=78,missing=78,gain=0.778746128,cover=14.9586372
+							77:leaf=0.0184205584,cover=12.8774185
+							78:leaf=0.0771153644,cover=2.08121943
+					42:leaf=-0.035992153,cover=1.24386597
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.289872885,cover=3.37028909
+				29:leaf=-0.0726754591,cover=1.83946919
+				30:leaf=-0.0103265839,cover=1.53081989
+booster[18]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=11.3019323,cover=125.528015
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=2.02333117,cover=78.724556
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.624606609,cover=18.1695538
+			7:[Age<27] yes=15,no=16,missing=16,gain=1.2001549,cover=13.2769575
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.720639944,cover=11.6400347
+					31:[Fare<7.75] yes=45,no=46,missing=46,gain=0.547010005,cover=8.74911785
+						45:[Fare<7.25] yes=59,no=60,missing=60,gain=0.589346528,cover=6.49990129
+							59:leaf=-0.0136955278,cover=4.53086901
+							60:leaf=-0.0751422718,cover=1.96903229
+						46:[Age<24.5] yes=61,no=62,missing=62,gain=0.124291964,cover=2.24921608
+							61:leaf=-0.00939905271,cover=1.03348541
+							62:leaf=0.0263421293,cover=1.21573067
+					32:leaf=-0.0841606185,cover=2.89091754
+				16:leaf=0.0312477201,cover=1.63692296
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.178943872,cover=4.89259529
+				17:leaf=-0.091327019,cover=3.75899816
+				18:leaf=-0.0203703176,cover=1.13359702
+		4:[Age<13] yes=9,no=10,missing=10,gain=1.30648625,cover=60.5550041
+			9:[FamilySize<2] yes=19,no=20,missing=20,gain=2.43580627,cover=5.67798185
+				19:leaf=0.0701558664,cover=3.72512341
+				20:leaf=-0.0473122559,cover=1.95285845
+			10:[Age<25] yes=21,no=22,missing=22,gain=1.53477001,cover=54.8770218
+				21:[Fare<8.11250019] yes=33,no=34,missing=34,gain=1.53806448,cover=10.8954563
+					33:leaf=0.0215703826,cover=1.95214522
+					34:[Embarked<1] yes=47,no=48,missing=48,gain=0.430812359,cover=8.94331169
+						47:[Age<20.5] yes=63,no=64,missing=64,gain=0.1318537,cover=2.25832748
+							63:leaf=0.00505186152,cover=1.15820158
+							64:leaf=-0.0333645605,cover=1.10012603
+						48:leaf=-0.0785522386,cover=6.68498373
+				22:[Fare<8.0291996] yes=35,no=36,missing=36,gain=1.02323055,cover=43.9815636
+					35:leaf=0.0516905673,cover=1.6139425
+					36:[Pclass<1] yes=49,no=50,missing=50,gain=1.1086638,cover=42.3676224
+						49:[Age<39] yes=65,no=66,missing=66,gain=1.49512243,cover=20.070425
+							65:leaf=0.0407990701,cover=6.32272816
+							66:leaf=-0.0145066148,cover=13.7476969
+						50:[Age<32.5] yes=67,no=68,missing=68,gain=1.97769082,cover=22.2971973
+							67:leaf=-0.00581024541,cover=15.0105829
+							68:leaf=-0.0671143457,cover=7.28661442
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=4.89980173,cover=46.8034554
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.398005486,cover=19.77491
+			11:[Age<43] yes=23,no=24,missing=24,gain=0.564261913,cover=9.70311642
+				23:[Age<28] yes=37,no=38,missing=38,gain=0.372894049,cover=7.55933094
+					37:[Age<23.5] yes=51,no=52,missing=52,gain=1.74779546,cover=3.41234016
+						51:leaf=0.077183634,cover=1.79055512
+						52:leaf=-0.038310755,cover=1.62178504
+					38:[Age<36.5] yes=53,no=54,missing=54,gain=0.104220629,cover=4.14699078
+						53:leaf=0.0906762108,cover=3.13044691
+						54:leaf=0.0211782176,cover=1.01654387
+				24:[Fare<26] yes=39,no=40,missing=40,gain=0.314656228,cover=2.14378524
+					39:leaf=0.0293247551,cover=1.12606001
+					40:leaf=-0.0258755721,cover=1.01772511
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.531648636,cover=10.0717936
+				25:leaf=0.101193093,cover=8.61850262
+				26:leaf=0.0192954578,cover=1.45329165
+		6:[Fare<78] yes=13,no=14,missing=14,gain=1.84752846,cover=27.0285473
+			13:[Age<28] yes=27,no=28,missing=28,gain=0.84446466,cover=23.7664738
+				27:[Age<6] yes=41,no=42,missing=42,gain=0.525181532,cover=18.7555485
+					41:leaf=0.0744064003,cover=1.5228672
+					42:[Fare<8.05000019] yes=55,no=56,missing=56,gain=1.09367907,cover=17.2326813
+						55:[Embarked<2] yes=69,no=70,missing=70,gain=0.662202954,cover=8.60364723
+							69:leaf=0.0625851676,cover=5.68185377
+							70:leaf=0.00403556973,cover=2.92179394
+						56:[Fare<14.5] yes=71,no=72,missing=72,gain=1.42488527,cover=8.62903404
+							71:leaf=-0.0663364828,cover=1.67392325
+							72:leaf=0.0180760901,cover=6.95511103
+				28:[Age<32.5] yes=43,no=44,missing=44,gain=0.438135952,cover=5.01092482
+					43:[Fare<9.2166996] yes=57,no=58,missing=58,gain=0.0296063721,cover=3.07696867
+						57:leaf=-0.0446655005,cover=1.19522047
+						58:leaf=-0.0135693355,cover=1.8817482
+					44:leaf=0.0180010553,cover=1.93395615
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.275801063,cover=3.26207328
+				29:leaf=-0.070652388,cover=1.73687315
+				30:leaf=-0.00972469803,cover=1.52520013
+booster[19]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=9.73554707,cover=122.759514
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.83601928,cover=77.2256775
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.590927124,cover=17.6218224
+			7:[Age<27] yes=15,no=16,missing=16,gain=1.07011533,cover=12.9894371
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.684342623,cover=11.3265991
+					31:[Fare<7.75] yes=45,no=46,missing=46,gain=0.489788651,cover=8.61804676
+						45:[Fare<7.25] yes=61,no=62,missing=62,gain=0.559170604,cover=6.35289288
+							61:leaf=-0.0126602743,cover=4.49494553
+							62:leaf=-0.0730328709,cover=1.85794747
+						46:[Age<24.5] yes=63,no=64,missing=64,gain=0.110121474,cover=2.26515388
+							63:leaf=-0.0089543974,cover=1.02635694
+							64:leaf=0.0246267207,cover=1.23879695
+					32:leaf=-0.0819470212,cover=2.70855212
+				16:leaf=0.0290075,cover=1.66283798
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.173051119,cover=4.63238621
+				17:leaf=-0.0889582857,cover=3.5125463
+				18:leaf=-0.0194198154,cover=1.11983979
+		4:[Age<10] yes=9,no=10,missing=10,gain=1.10737824,cover=59.6038513
+			9:[FamilySize<2] yes=19,no=20,missing=20,gain=1.94288611,cover=4.64097071
+				19:[Fare<90] yes=33,no=34,missing=34,gain=0.127443075,cover=2.92768216
+					33:leaf=0.0847941712,cover=1.87516022
+					34:leaf=0.0179831032,cover=1.05252194
+				20:leaf=-0.040732123,cover=1.71328878
+			10:[Pclass<1] yes=21,no=22,missing=22,gain=1.18015254,cover=54.962883
+				21:[Age<53] yes=35,no=36,missing=36,gain=0.948585749,cover=21.9143734
+					35:[Fare<26.8334007] yes=47,no=48,missing=48,gain=1.25445795,cover=18.2885437
+						47:leaf=0.0592337623,cover=3.22835493
+						48:[Fare<28.9083996] yes=65,no=66,missing=66,gain=2.43275166,cover=15.0601892
+							65:leaf=-0.100602925,cover=1.18784094
+							66:leaf=0.0123471366,cover=13.8723478
+					36:[Fare<35] yes=49,no=50,missing=50,gain=0.202959061,cover=3.6258297
+						49:leaf=-0.0549830608,cover=2.00287127
+						50:leaf=-0.00642093597,cover=1.62295854
+				22:[Fare<72.4499969] yes=37,no=38,missing=38,gain=1.57821131,cover=33.0485077
+					37:[Fare<45.7374001] yes=51,no=52,missing=52,gain=1.45356679,cover=30.0575294
+						51:[Fare<23] yes=67,no=68,missing=68,gain=2.07832408,cover=24.476759
+							67:leaf=-0.015900379,cover=20.9394684
+							68:leaf=-0.0917870328,cover=3.53728962
+						52:[Age<32.5] yes=69,no=70,missing=70,gain=1.89618957,cover=5.58077002
+							69:leaf=0.0510833524,cover=4.53262758
+							70:leaf=-0.0629438683,cover=1.04814219
+					38:leaf=-0.0881212279,cover=2.99097896
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=4.49368906,cover=45.5338402
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.394166946,cover=18.8621769
+			11:[Age<43] yes=23,no=24,missing=24,gain=0.516602278,cover=9.45028877
+				23:[Age<28] yes=39,no=40,missing=40,gain=0.348727703,cover=7.31008911
+					39:[Age<23.5] yes=53,no=54,missing=54,gain=1.5770061,cover=3.36066651
+						53:leaf=0.0747908875,cover=1.69975019
+						54:leaf=-0.0353842378,cover=1.66091621
+					40:[Age<36.5] yes=55,no=56,missing=56,gain=0.101603746,cover=3.9494226
+						55:leaf=0.0880253538,cover=2.94210601
+						56:leaf=0.0202079117,cover=1.00731671
+				24:[Fare<26] yes=41,no=42,missing=42,gain=0.283417851,cover=2.14020014
+					41:leaf=0.0279632211,cover=1.11221302
+					42:leaf=-0.0244395398,cover=1.027987
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.528682709,cover=9.41188812
+				25:leaf=0.0992293954,cover=7.96363783
+				26:leaf=0.0181917716,cover=1.44824994
+		6:[Fare<78] yes=13,no=14,missing=14,gain=1.63121104,cover=26.6716614
+			13:[Age<6] yes=27,no=28,missing=28,gain=0.758103251,cover=23.5107002
+				27:leaf=0.0720224455,cover=1.45268023
+				28:[FamilySize<1] yes=43,no=44,missing=44,gain=0.608784676,cover=22.0580196
+					43:[Age<22] yes=57,no=58,missing=58,gain=1.08724296,cover=4.44236374
+						57:leaf=-0.0651994124,cover=1.63639522
+						58:[Age<30] yes=71,no=72,missing=72,gain=0.316536307,cover=2.80596852
+							71:leaf=0.0426170304,cover=1.36652291
+							72:leaf=-0.0110784974,cover=1.43944561
+					44:[Age<23] yes=59,no=60,missing=60,gain=0.627151549,cover=17.6156559
+						59:[Fare<29] yes=73,no=74,missing=74,gain=0.509517074,cover=12.5524378
+							73:leaf=0.0199210998,cover=10.8887749
+							74:leaf=0.0725761354,cover=1.66366279
+						60:[Fare<7.92500019] yes=75,no=76,missing=76,gain=0.93140918,cover=5.06321764
+							75:leaf=-0.0612486862,cover=1.19499469
+							76:leaf=0.0174554344,cover=3.86822295
+			14:[Fare<220.5] yes=29,no=30,missing=30,gain=0.278522015,cover=3.16096234
+				29:leaf=-0.0146883829,cover=2.07534671
+				30:leaf=-0.0763995647,cover=1.08561563
+booster[20]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=8.4608202,cover=120.421707
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.63961196,cover=75.9135971
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.558046579,cover=17.1106758
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.954330921,cover=12.7214518
+				15:[Fare<7.82919979] yes=29,no=30,missing=30,gain=0.649033546,cover=11.0347309
+					29:[Fare<7.75] yes=41,no=42,missing=42,gain=0.438476145,cover=8.49603844
+						41:[Fare<7.25] yes=53,no=54,missing=54,gain=0.530266345,cover=6.21588469
+							53:leaf=-0.0116991391,cover=4.46175337
+							54:leaf=-0.0709975585,cover=1.75413132
+						42:[Age<24.5] yes=55,no=56,missing=56,gain=0.0975955203,cover=2.28015327
+							55:leaf=-0.00853083003,cover=1.01959252
+							56:leaf=0.0230282322,cover=1.26056075
+					30:leaf=-0.07980638,cover=2.53869271
+				16:leaf=0.0269414335,cover=1.68672073
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.16746068,cover=4.38922453
+				17:leaf=-0.086681895,cover=3.28246546
+				18:leaf=-0.0185141675,cover=1.10675931
+		4:[Age<13] yes=9,no=10,missing=10,gain=1.0076592,cover=58.8029213
+			9:[FamilySize<2] yes=19,no=20,missing=20,gain=1.94057739,cover=5.34325171
+				19:[Pclass<2] yes=31,no=32,missing=32,gain=0.0152300596,cover=3.50596189
+					31:leaf=0.078430444,cover=1.6802839
+					32:leaf=0.0278618671,cover=1.82567799
+				20:leaf=-0.0430625603,cover=1.83728993
+			10:[Age<25] yes=21,no=22,missing=22,gain=1.35173452,cover=53.4596672
+				21:[Fare<8.11250019] yes=33,no=34,missing=34,gain=1.39570379,cover=10.4399166
+					33:leaf=0.0211428385,cover=1.95939291
+					34:[Embarked<1] yes=43,no=44,missing=44,gain=0.362394571,cover=8.48052406
+						43:[Age<20.5] yes=57,no=58,missing=58,gain=0.11671406,cover=2.25132513
+							57:leaf=0.00425693626,cover=1.16104949
+							58:leaf=-0.0321864597,cover=1.09027565
+						44:leaf=-0.0745771229,cover=6.22919846
+				22:[Fare<8.0291996] yes=35,no=36,missing=36,gain=0.895464778,cover=43.0197525
+					35:leaf=0.0492264889,cover=1.62696469
+					36:[Pclass<1] yes=45,no=46,missing=46,gain=0.799575746,cover=41.3927879
+						45:[Age<39] yes=59,no=60,missing=60,gain=1.18077445,cover=19.9213276
+							59:leaf=0.0360592119,cover=6.28327465
+							60:leaf=-0.0132357031,cover=13.6380529
+						46:[Age<32.5] yes=61,no=62,missing=62,gain=1.72080982,cover=21.4714584
+							61:leaf=-0.00372844189,cover=14.716383
+							62:leaf=-0.0622156821,cover=6.75507641
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=4.12659407,cover=44.50811
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.403697014,cover=18.0096607
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.416445345,cover=3.07395744
+				23:leaf=0.0456649475,cover=1.97459316
+				24:leaf=-0.0159431323,cover=1.09936416
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.312088966,cover=14.9357033
+				25:[Fare<78.75] yes=37,no=38,missing=38,gain=0.183260918,cover=13.4924278
+					37:[Age<26] yes=47,no=48,missing=48,gain=0.422226071,cover=6.13634348
+						47:leaf=0.0808200687,cover=2.16830516
+						48:[Fare<28.5] yes=63,no=64,missing=64,gain=1.00127423,cover=3.96803832
+							63:leaf=0.0718800202,cover=1.28621221
+							64:leaf=-0.0141457636,cover=2.68182611
+					38:leaf=0.0973513499,cover=7.35608387
+				26:leaf=0.0171523448,cover=1.44327533
+		6:[Fare<220.5] yes=13,no=14,missing=14,gain=1.46809435,cover=26.4984493
+			13:[Age<6] yes=27,no=28,missing=28,gain=1.06957209,cover=25.4438248
+				27:leaf=0.0722984001,cover=1.85771143
+				28:[FamilySize<1] yes=39,no=40,missing=40,gain=1.01070297,cover=23.586113
+					39:[Age<22] yes=49,no=50,missing=50,gain=1.15771914,cover=5.21574926
+						49:leaf=-0.0701526329,cover=2.23820257
+						50:[Age<30] yes=65,no=66,missing=66,gain=0.282279611,cover=2.97754669
+							65:leaf=0.0349216871,cover=1.45142651
+							66:leaf=-0.0137970848,cover=1.52612031
+					40:[Fare<7.55000019] yes=51,no=52,missing=52,gain=0.345874071,cover=18.3703632
+						51:leaf=0.0533315539,cover=1.52706015
+						52:[Embarked<1] yes=67,no=68,missing=68,gain=0.765077949,cover=16.8433037
+							67:leaf=-0.0386109799,cover=1.67006862
+							68:leaf=0.0196865071,cover=15.173234
+			14:leaf=-0.0735721812,cover=1.05462623
+booster[21]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=7.28439283,cover=118.172401
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.49837303,cover=74.5991364
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.526001215,cover=16.6344814
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.851277709,cover=12.4720097
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.614756465,cover=10.7632799
+					31:[Fare<7.75] yes=45,no=46,missing=46,gain=0.392510384,cover=8.38255787
+						45:[Fare<7.25] yes=57,no=58,missing=58,gain=0.502601445,cover=6.08830547
+							57:leaf=-0.0108073717,cover=4.43109989
+							58:leaf=-0.0690308288,cover=1.65720558
+						46:[Age<24.5] yes=59,no=60,missing=60,gain=0.0865198299,cover=2.29425287
+							59:leaf=-0.00812734105,cover=1.01317239
+							60:leaf=0.0215381589,cover=1.28108048
+					32:leaf=-0.0777304918,cover=2.38072157
+				16:leaf=0.025033934,cover=1.70872974
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.162069798,cover=4.16247225
+				17:leaf=-0.0844844431,cover=3.06814837
+				18:leaf=-0.0176512059,cover=1.09432387
+		4:[Age<13] yes=9,no=10,missing=10,gain=0.88405025,cover=57.9646568
+			9:[FamilySize<2] yes=19,no=20,missing=20,gain=1.73999238,cover=5.19276333
+				19:[Pclass<2] yes=33,no=34,missing=34,gain=0.0242451429,cover=3.40767097
+					33:leaf=0.0758704171,cover=1.60112214
+					34:leaf=0.0262488127,cover=1.80654883
+				20:leaf=-0.0410692878,cover=1.78509259
+			10:[Age<25] yes=21,no=22,missing=22,gain=1.19046175,cover=52.7718925
+				21:[Age<20.5] yes=35,no=36,missing=36,gain=1.46800423,cover=10.1383343
+					35:[Fare<8.30000019] yes=47,no=48,missing=48,gain=2.41950274,cover=5.90745354
+						47:leaf=0.0873602182,cover=1.01631105
+						48:[Age<19] yes=61,no=62,missing=62,gain=1.65867364,cover=4.89114237
+							61:leaf=-0.0749821588,cover=3.1842525
+							62:leaf=0.0294781718,cover=1.70689011
+					36:leaf=-0.082729809,cover=4.23088074
+				22:[Fare<8.0291996] yes=37,no=38,missing=38,gain=0.778338075,cover=42.6335602
+					37:leaf=0.045873221,cover=1.64350164
+					38:[Fare<375.200012] yes=49,no=50,missing=50,gain=0.704764664,cover=40.9900589
+						49:[Fare<211.337494] yes=63,no=64,missing=64,gain=1.28815055,cover=39.2817154
+							63:leaf=-0.00779722724,cover=36.9937248
+							64:leaf=-0.0734803379,cover=2.28799272
+						50:leaf=0.0397285968,cover=1.70834184
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=3.79909325,cover=43.5732613
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.384906769,cover=17.2361965
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.375199974,cover=3.0189898
+				23:leaf=0.0435688011,cover=1.91393256
+				24:leaf=-0.015065222,cover=1.10505724
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.30428791,cover=14.217206
+				25:[Fare<78.75] yes=39,no=40,missing=40,gain=0.195361137,cover=12.7788153
+					39:[Age<26] yes=51,no=52,missing=52,gain=0.392012715,cover=5.98498917
+						51:leaf=0.0784133002,cover=2.04828
+						52:[Fare<28.5] yes=65,no=66,missing=66,gain=0.910569489,cover=3.93670893
+							65:leaf=0.0695256814,cover=1.23338568
+							66:leaf=-0.013035153,cover=2.70332336
+					40:leaf=0.0955407023,cover=6.7938261
+				26:leaf=0.0161731597,cover=1.43839085
+		6:[Fare<78] yes=13,no=14,missing=14,gain=1.33508778,cover=26.3370667
+			13:[Age<28] yes=27,no=28,missing=28,gain=0.67488426,cover=23.2599373
+				27:[Age<6] yes=41,no=42,missing=42,gain=0.44720149,cover=18.2265682
+					41:leaf=0.0675310865,cover=1.31964993
+					42:[Age<21.5] yes=53,no=54,missing=54,gain=0.909043849,cover=16.9069195
+						53:[Age<18] yes=67,no=68,missing=68,gain=0.715316236,cover=6.03633404
+							67:leaf=0.020477755,cover=2.90190029
+							68:leaf=-0.0397397541,cover=3.13443398
+						54:[Fare<29] yes=69,no=70,missing=70,gain=0.775044203,cover=10.8705845
+							69:leaf=0.0139228208,cover=7.88248158
+							70:leaf=0.0705446005,cover=2.98810315
+				28:[Age<32.5] yes=43,no=44,missing=44,gain=0.390368968,cover=5.03336859
+					43:[Age<31] yes=55,no=56,missing=56,gain=0.0390194952,cover=3.07829905
+						55:leaf=-0.0398986377,cover=1.88947177
+						56:leaf=-0.00823817682,cover=1.18882716
+					44:leaf=0.0160892941,cover=1.95506954
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.36154002,cover=3.07712841
+				29:leaf=-0.0681661665,cover=1.61483121
+				30:leaf=-0.00350372726,cover=1.4622972
+booster[22]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=6.29506016,cover=116.205177
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.38058519,cover=73.6006927
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.494855642,cover=16.1914558
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.759589553,cover=12.2400703
+				15:[Fare<7.82919979] yes=29,no=30,missing=30,gain=0.581567883,cover=10.5110569
+					29:[Fare<7.75] yes=39,no=40,missing=40,gain=0.351372808,cover=8.27707386
+						39:[Fare<7.25] yes=47,no=48,missing=48,gain=0.476153612,cover=5.96958113
+							47:leaf=-0.00998044293,cover=4.40280056
+							48:leaf=-0.0671282932,cover=1.56678021
+						40:[Age<24.5] yes=49,no=50,missing=50,gain=0.0767235011,cover=2.30749321
+							49:leaf=-0.00774298608,cover=1.00707817
+							50:leaf=0.0201486479,cover=1.30041504
+					30:leaf=-0.0757130086,cover=2.2339828
+				16:leaf=0.0232710838,cover=1.72901368
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.156807661,cover=3.95138478
+				17:leaf=-0.0823552236,cover=2.86888242
+				18:leaf=-0.0168288704,cover=1.08250237
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.806546688,cover=57.4092369
+			9:[Age<13] yes=19,no=20,missing=20,gain=2.00620317,cover=54.8433876
+				19:[Pclass<2] yes=31,no=32,missing=32,gain=0.0321103334,cover=3.31379318
+					31:leaf=0.0734468326,cover=1.52547526
+					32:leaf=0.0247283354,cover=1.78831804
+				20:[Age<25] yes=33,no=34,missing=34,gain=0.992016256,cover=51.5295944
+					33:[Age<20.5] yes=41,no=42,missing=42,gain=1.52650678,cover=9.6125536
+						41:[Fare<8.30000019] yes=51,no=52,missing=52,gain=1.96842504,cover=5.59488201
+							51:leaf=0.0805380866,cover=1.07375789
+							52:leaf=-0.0337522402,cover=4.52112389
+						42:leaf=-0.0794456825,cover=4.01767159
+					34:[Fare<375.200012] yes=43,no=44,missing=44,gain=1.31418037,cover=41.9170418
+						43:[Fare<211.337494] yes=53,no=54,missing=54,gain=1.29372656,cover=40.6840363
+							53:leaf=-0.00368750072,cover=38.457859
+							54:leaf=-0.0697468445,cover=2.22617817
+						44:leaf=0.0699277446,cover=1.23300469
+			10:[Fare<220.5] yes=21,no=22,missing=22,gain=0.166344047,cover=2.56585002
+				21:leaf=-0.0104029058,cover=1.04102373
+				22:leaf=-0.0708396286,cover=1.52482629
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=3.46507692,cover=42.6044846
+		5:[Fare<42.4000015] yes=11,no=12,missing=12,gain=0.373266697,cover=16.5163498
+			11:[Age<28] yes=23,no=24,missing=24,gain=0.496006906,cover=5.52879333
+				23:leaf=-0.0118473098,cover=1.40596282
+				24:[Age<50] yes=35,no=36,missing=36,gain=0.70770216,cover=4.12283039
+					35:leaf=0.068208836,cover=3.02561164
+					36:leaf=-0.0127413971,cover=1.09721911
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.373765469,cover=10.9875565
+				25:leaf=0.0831081793,cover=9.55394077
+				26:leaf=0.0152505636,cover=1.43361545
+		6:[Fare<220.5] yes=13,no=14,missing=14,gain=1.30300331,cover=26.0881367
+			13:[Age<6] yes=27,no=28,missing=28,gain=0.937215984,cover=25.0664291
+				27:leaf=0.0681339726,cover=1.73742914
+				28:[Age<15] yes=37,no=38,missing=38,gain=0.878122807,cover=23.3290005
+					37:leaf=-0.0463919304,cover=1.88141572
+					38:[Age<17] yes=45,no=46,missing=46,gain=0.902582586,cover=21.4475842
+						45:leaf=0.0762371272,cover=1.02073026
+						46:[Age<21.5] yes=55,no=56,missing=56,gain=0.920390725,cover=20.4268551
+							55:leaf=-0.0339784101,cover=3.68673706
+							56:leaf=0.0159333926,cover=16.7401161
+			14:leaf=-0.0708117485,cover=1.02170694
+booster[23]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=5.37672186,cover=114.396118
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.26609755,cover=72.66259
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.464684725,cover=15.7797308
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.678039491,cover=12.0245771
+				15:[Fare<7.82919979] yes=31,no=32,missing=32,gain=0.54952836,cover=10.2768669
+					31:[Fare<7.7750001] yes=41,no=42,missing=42,gain=0.325539082,cover=8.1790638
+						41:[Fare<7.25] yes=53,no=54,missing=54,gain=0.281363547,cover=6.78218412
+							53:leaf=-0.00921407528,cover=4.37668562
+							54:leaf=-0.0503517501,cover=2.4054985
+						42:leaf=0.016000092,cover=1.39687908
+					32:leaf=-0.0737490728,cover=2.09780359
+				16:leaf=0.0216404572,cover=1.74771047
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.151630878,cover=3.75515318
+				17:leaf=-0.0802858174,cover=2.68388796
+				18:leaf=-0.0160452165,cover=1.0712651
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.749335349,cover=56.8828583
+			9:[Age<13] yes=19,no=20,missing=20,gain=1.78241968,cover=54.4007225
+				19:[Pclass<2] yes=33,no=34,missing=34,gain=0.0389134884,cover=3.22438359
+					33:leaf=0.0711454898,cover=1.45341539
+					34:leaf=0.0232949927,cover=1.7709682
+				20:[Age<25] yes=35,no=36,missing=36,gain=0.85176903,cover=51.1763382
+					35:[Age<20.5] yes=43,no=44,missing=44,gain=1.41059732,cover=9.37667942
+						43:[Fare<8.30000019] yes=55,no=56,missing=56,gain=1.71298087,cover=5.5597105
+							55:leaf=0.0743463561,cover=1.12725234
+							56:leaf=-0.0315216891,cover=4.4324584
+						44:[Fare<77.0332031] yes=57,no=58,missing=58,gain=0.0239849091,cover=3.81696892
+							57:leaf=-0.0848109052,cover=2.78242731
+							58:leaf=-0.0229647439,cover=1.03454161
+					36:[Fare<375.200012] yes=45,no=46,missing=46,gain=1.16671932,cover=41.7996597
+						45:[Fare<211.337494] yes=59,no=60,missing=60,gain=1.15345883,cover=40.5661812
+							59:leaf=-0.00333313341,cover=38.4013634
+							60:leaf=-0.0662601814,cover=2.16481853
+						46:leaf=0.0660510436,cover=1.23347735
+			10:[Fare<220.5] yes=21,no=22,missing=22,gain=0.156751394,cover=2.48213792
+				21:leaf=-0.00991238002,cover=1.03318441
+				22:leaf=-0.0687338337,cover=1.44895363
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=3.10764241,cover=41.7335243
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.405604839,cover=15.7915449
+			11:[Age<43] yes=23,no=24,missing=24,gain=0.465071321,cover=8.51374912
+				23:[Age<28] yes=37,no=38,missing=38,gain=0.520475984,cover=6.48287249
+					37:[Age<23.5] yes=47,no=48,missing=48,gain=1.51227379,cover=2.95196152
+						47:leaf=0.0671658814,cover=1.41196847
+						48:leaf=-0.043871697,cover=1.53999305
+					38:leaf=0.0722167268,cover=3.53091121
+				24:leaf=-0.00235946663,cover=2.0308764
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.5085392,cover=7.27779627
+				25:leaf=0.0922586396,cover=5.84883308
+				26:leaf=0.0143811097,cover=1.42896318
+		6:[Fare<78] yes=13,no=14,missing=14,gain=1.11299539,cover=25.9419804
+			13:[Age<36.5] yes=27,no=28,missing=28,gain=0.62796706,cover=22.976059
+				27:[Fare<47.2251015] yes=39,no=40,missing=40,gain=0.734169304,cover=21.7157879
+					39:[Fare<35] yes=49,no=50,missing=50,gain=1.7068224,cover=18.2708149
+						49:[Age<20] yes=61,no=62,missing=62,gain=0.968879104,cover=16.6357327
+							61:leaf=0.0556251071,cover=4.34801197
+							62:leaf=0.00423745159,cover=12.2877207
+						50:leaf=-0.0664306283,cover=1.63508272
+					40:[Fare<69] yes=51,no=52,missing=52,gain=0.596460819,cover=3.44497347
+						51:leaf=0.0763904601,cover=2.3502388
+						52:leaf=-0.00466605183,cover=1.09473455
+				28:leaf=-0.0374096483,cover=1.26027107
+			14:[Fare<219.712494] yes=29,no=30,missing=30,gain=0.379532456,cover=2.96592116
+				29:leaf=-0.0663926229,cover=1.53097069
+				30:leaf=-0.00117577764,cover=1.43495047
+booster[24]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=4.61386728,cover=112.632973
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=1.14876473,cover=71.7795563
+		3:[Age<30] yes=7,no=8,missing=8,gain=0.439966202,cover=15.3880911
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.602436721,cover=11.8151579
+				15:[Fare<7.82919979] yes=29,no=30,missing=30,gain=0.524208903,cover=10.05021
+					29:[Fare<7.75] yes=41,no=42,missing=42,gain=0.307084203,cover=8.07870102
+						41:[Fare<7.25] yes=51,no=52,missing=52,gain=0.435646594,cover=5.77414417
+							51:leaf=-0.00850420725,cover=4.3525939
+							52:leaf=-0.0639097914,cover=1.42155039
+						42:[Age<24.5] yes=53,no=54,missing=54,gain=0.082796827,cover=2.30455637
+							53:leaf=-0.00813347567,cover=1.01326978
+							54:leaf=0.0207931157,cover=1.29128647
+					30:leaf=-0.0718350634,cover=1.97150946
+				16:leaf=0.0201309081,cover=1.76494813
+			8:[Fare<7.7750001] yes=17,no=18,missing=18,gain=0.146514893,cover=3.5729332
+				17:leaf=-0.0782697052,cover=2.51234961
+				18:leaf=-0.0152983833,cover=1.06058359
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.694376469,cover=56.3914642
+			9:[Age<13] yes=19,no=20,missing=20,gain=1.58949971,cover=53.9882126
+				19:[Fare<90] yes=31,no=32,missing=32,gain=0.0704979897,cover=3.13942814
+					31:leaf=0.0636302829,cover=2.09908772
+					32:leaf=0.0135766333,cover=1.04034054
+				20:[Age<25] yes=33,no=34,missing=34,gain=0.746315479,cover=50.8487816
+					33:[Age<20.5] yes=43,no=44,missing=44,gain=1.32211316,cover=9.16279411
+						43:[Fare<8.11250019] yes=55,no=56,missing=56,gain=1.94363964,cover=5.52694511
+							55:leaf=0.0826135799,cover=1.02899766
+							56:leaf=-0.0319087282,cover=4.49794769
+						44:[Fare<77.0332031] yes=57,no=58,missing=58,gain=0.0276157856,cover=3.63584852
+							57:leaf=-0.0824910477,cover=2.61157131
+							58:leaf=-0.0219133496,cover=1.02427721
+					34:[Fare<375.200012] yes=45,no=46,missing=46,gain=1.03716433,cover=41.6859894
+						45:[Fare<211.337494] yes=59,no=60,missing=60,gain=1.02956891,cover=40.4547234
+							59:leaf=-0.00301240315,cover=38.3502541
+							60:leaf=-0.0629918352,cover=2.10446978
+						46:leaf=0.0624678023,cover=1.231264
+			10:[Fare<220.5] yes=21,no=22,missing=22,gain=0.14790529,cover=2.40325284
+				21:leaf=-0.00944502745,cover=1.02574718
+				22:leaf=-0.0667142794,cover=1.37750554
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=2.83120561,cover=40.8534164
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.408304214,cover=15.1503687
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.343713224,cover=2.80598068
+				23:leaf=0.0374668501,cover=1.73094416
+				24:leaf=-0.0182761289,cover=1.07503664
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.274386406,cover=12.344388
+				25:[Fare<78.75] yes=35,no=36,missing=36,gain=0.254782677,cover=10.9199429
+					35:[Age<26] yes=47,no=48,missing=48,gain=0.443436861,cover=5.51598358
+						47:leaf=0.0737589598,cover=1.81659687
+						48:[Fare<28.5] yes=61,no=62,missing=62,gain=0.989109278,cover=3.6993866
+							61:leaf=0.066496551,cover=1.15599549
+							62:leaf=-0.0202340987,cover=2.54339123
+					36:leaf=0.0905654952,cover=5.40395927
+				26:leaf=0.0135616111,cover=1.42444551
+		6:[Age<6] yes=13,no=14,missing=14,gain=1.03340423,cover=25.7030487
+			13:leaf=0.0648713633,cover=1.64674163
+			14:[Fare<69] yes=27,no=28,missing=28,gain=1.79941547,cover=24.0563068
+				27:[Fare<47.2251015] yes=37,no=38,missing=38,gain=0.603019595,cover=20.9498978
+					37:[Fare<35] yes=49,no=50,missing=50,gain=1.30663514,cover=18.7364655
+						49:[Age<20] yes=63,no=64,missing=64,gain=0.706168413,cover=17.1250763
+							63:leaf=0.045474641,cover=3.84394908
+							64:leaf=0.000807328266,cover=13.281127
+						50:leaf=-0.0629034191,cover=1.61139011
+					38:leaf=0.0505398512,cover=2.21343088
+				28:[Age<22] yes=39,no=40,missing=40,gain=0.153288364,cover=3.1064105
+					39:leaf=-0.0786637068,cover=1.63019609
+					40:leaf=-0.0186794437,cover=1.47621453
+booster[25]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=4.00987959,cover=111.041382
+	1:[Pclass<1] yes=3,no=4,missing=4,gain=1.06565487,cover=70.9601288
+		3:[Age<53] yes=7,no=8,missing=8,gain=0.707821429,cover=21.9992695
+			7:[Age<48] yes=15,no=16,missing=16,gain=1.34742701,cover=18.5760174
+				15:[Age<43] yes=29,no=30,missing=30,gain=1.72485745,cover=15.562067
+					29:[FamilySize<1] yes=45,no=46,missing=46,gain=0.776733518,cover=13.4458914
+						45:leaf=0.0655388013,cover=1.37898123
+						46:[Fare<36] yes=57,no=58,missing=58,gain=1.36978948,cover=12.0669107
+							57:leaf=0.0342259519,cover=5.93257284
+							58:leaf=-0.0282070488,cover=6.1343379
+					30:leaf=-0.068748109,cover=2.11617565
+				16:[Age<50] yes=31,no=32,missing=32,gain=0.413256526,cover=3.01394916
+					31:leaf=0.0900686085,cover=1.45138288
+					32:leaf=0.0133908484,cover=1.5625664
+			8:[Fare<35] yes=17,no=18,missing=18,gain=0.289608389,cover=3.42325377
+				17:leaf=-0.0508791022,cover=1.91386271
+				18:leaf=0.0018916406,cover=1.50939119
+		4:[Age<32.5] yes=9,no=10,missing=10,gain=1.06064844,cover=48.9608574
+			9:[Age<31] yes=19,no=20,missing=20,gain=1.92758417,cover=40.2885361
+				19:[Embarked<1] yes=33,no=34,missing=34,gain=0.885627508,cover=36.5732651
+					33:[Fare<7.25] yes=47,no=48,missing=48,gain=0.478192776,cover=7.27603054
+						47:[Fare<7.22919989] yes=59,no=60,missing=60,gain=0.0891080946,cover=2.9571836
+							59:leaf=-0.0313123725,cover=1.38123953
+							60:leaf=-0.000400352757,cover=1.57594407
+						48:[Age<18] yes=61,no=62,missing=62,gain=0.309012294,cover=4.3188467
+							61:leaf=-0.0094184177,cover=1.28134251
+							62:leaf=0.0410183407,cover=3.0375042
+					34:[Age<10] yes=49,no=50,missing=50,gain=0.671829224,cover=29.2972355
+						49:[Fare<90] yes=63,no=64,missing=64,gain=1.47672701,cover=3.27423167
+							63:leaf=0.0683020875,cover=1.32197726
+							64:leaf=-0.0386079215,cover=1.95225453
+						50:[Fare<7.05000019] yes=65,no=66,missing=66,gain=0.542529106,cover=26.0230026
+							65:leaf=0.0178146195,cover=1.29127932
+							66:leaf=-0.0381769203,cover=24.7317238
+				20:[Fare<11.5] yes=35,no=36,missing=36,gain=0.182284236,cover=3.7152729
+					35:leaf=0.0159740951,cover=2.21060491
+					36:leaf=0.0664203465,cover=1.504668
+			10:[Age<39] yes=21,no=22,missing=22,gain=0.60568285,cover=8.67232132
+				21:leaf=-0.0839884579,cover=3.01007986
+				22:[Fare<13.5] yes=37,no=38,missing=38,gain=0.970623851,cover=5.66224146
+					37:[Age<45.5] yes=51,no=52,missing=52,gain=1.10746467,cover=3.96569777
+						51:leaf=0.0461093821,cover=2.05132675
+						52:leaf=-0.0401584618,cover=1.91437113
+					38:leaf=-0.0719109252,cover=1.69654346
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=2.58667326,cover=40.0812492
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.38479805,cover=14.581234
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.309308529,cover=2.76653337
+				23:leaf=0.0357263349,cover=1.68488383
+				24:leaf=-0.0172713101,cover=1.08164954
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.264813423,cover=11.8147011
+				25:[Fare<78.75] yes=39,no=40,missing=40,gain=0.252718449,cover=10.3946304
+					39:[Age<26] yes=53,no=54,missing=54,gain=0.408310175,cover=5.39972019
+						53:leaf=0.0716427267,cover=1.71788096
+						54:[Fare<28.5] yes=67,no=68,missing=68,gain=0.896266103,cover=3.68183947
+							67:leaf=0.0644191951,cover=1.10864258
+							68:leaf=-0.0186166391,cover=2.57319689
+					40:leaf=0.0888935849,cover=4.99490976
+				26:leaf=0.01278912,cover=1.42007077
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.930169165,cover=25.5000172
+			13:leaf=0.0617207065,cover=1.61067915
+			14:[Fare<69] yes=27,no=28,missing=28,gain=1.60743535,cover=23.8893375
+				27:[Fare<47.2251015] yes=41,no=42,missing=42,gain=0.534418881,cover=20.8702488
+					41:[Fare<35] yes=55,no=56,missing=56,gain=1.15303838,cover=18.6869831
+						55:[Fare<30] yes=69,no=70,missing=70,gain=0.707931459,cover=17.1005821
+							69:leaf=0.00261939387,cover=15.0031519
+							70:leaf=0.0553320758,cover=2.09742904
+						56:leaf=-0.0596220158,cover=1.58640218
+					42:leaf=0.0475282632,cover=2.18326616
+				28:[Age<22] yes=43,no=44,missing=44,gain=0.149027109,cover=3.01908827
+					43:leaf=-0.0761566535,cover=1.55242527
+					44:leaf=-0.0176374912,cover=1.466663
+booster[26]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=3.43754196,cover=109.228279
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.997151136,cover=69.8715057
+		3:[Age<28] yes=7,no=8,missing=8,gain=0.464665055,cover=14.7776375
+			7:[Fare<7.82919979] yes=15,no=16,missing=16,gain=1.22524035,cover=10.3107786
+				15:[Embarked<2] yes=29,no=30,missing=30,gain=0.638387859,cover=8.28845024
+					29:[Age<23] yes=41,no=42,missing=42,gain=0.724467814,cover=4.31164169
+						41:leaf=0.0303478036,cover=1.02861631
+						42:[Fare<7.22919989] yes=55,no=56,missing=56,gain=0.144544005,cover=3.2830255
+							55:leaf=-0.065168336,cover=1.15990579
+							56:leaf=-0.0161894318,cover=2.12311959
+					30:[Age<21] yes=43,no=44,missing=44,gain=1.88472939,cover=3.97680831
+						43:leaf=-0.0587374642,cover=1.01346421
+						44:[Fare<7.2249999] yes=57,no=58,missing=58,gain=0.0582319498,cover=2.9633441
+							57:leaf=0.0815221816,cover=1.05164242
+							58:leaf=0.0266203191,cover=1.9117018
+				16:leaf=-0.0747720897,cover=2.02232862
+			8:[Fare<7.82919979] yes=17,no=18,missing=18,gain=0.998263836,cover=4.46685934
+				17:leaf=-0.085126482,cover=3.07372189
+				18:leaf=0.00783040095,cover=1.39313734
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.61428833,cover=55.0938644
+			9:[Age<10] yes=19,no=20,missing=20,gain=1.30217874,cover=52.8292809
+				19:[Fare<78.75] yes=31,no=32,missing=32,gain=0.0807518959,cover=2.36061096
+					31:leaf=0.0696915463,cover=1.27763128
+					32:leaf=0.0149074746,cover=1.0829798
+				20:[Fare<375.200012] yes=33,no=34,missing=34,gain=0.72377193,cover=50.4686699
+					33:[Fare<211.337494] yes=45,no=46,missing=46,gain=0.508324027,cover=48.8823624
+						45:[Pclass<1] yes=59,no=60,missing=60,gain=0.674039185,cover=46.2276382
+							59:leaf=0.00818392634,cover=17.0162582
+							60:leaf=-0.0163498633,cover=29.2113781
+						46:[Embarked<1] yes=61,no=62,missing=62,gain=0.378006935,cover=2.65472651
+							61:leaf=-0.00378729217,cover=1.43937004
+							62:leaf=-0.0724515468,cover=1.21535635
+					34:leaf=0.0441292673,cover=1.58630586
+			10:[Age<5] yes=21,no=22,missing=22,gain=0.0666017532,cover=2.26458383
+				21:leaf=-0.0120423352,cover=1.03352499
+				22:leaf=-0.0603942089,cover=1.23105896
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=2.35816288,cover=39.356781
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.362216949,cover=14.0538788
+			11:[Age<36.5] yes=23,no=24,missing=24,gain=0.278328478,cover=2.72941256
+				23:leaf=0.0340621322,cover=1.64161658
+				24:leaf=-0.0163231138,cover=1.08779609
+			12:[FamilySize<1] yes=25,no=26,missing=26,gain=0.289093971,cover=11.3244658
+				25:[Fare<494.600098] yes=35,no=36,missing=36,gain=0.42599988,cover=3.26166058
+					35:[Fare<79.1999969] yes=47,no=48,missing=48,gain=0.108803272,cover=2.20757723
+						47:leaf=0.00801363587,cover=1.0046984
+						48:leaf=0.0579726882,cover=1.20287871
+					36:leaf=-0.0170142297,cover=1.05408335
+				26:[Age<44] yes=37,no=38,missing=38,gain=0.306606293,cover=8.06280518
+					37:[Fare<42.4000015] yes=49,no=50,missing=50,gain=0.263066769,cover=5.86898279
+						49:leaf=0.0193132404,cover=1.16248822
+						50:leaf=0.0945991352,cover=4.70649433
+					38:leaf=0.0246709399,cover=2.19382238
+		6:[Age<39] yes=13,no=14,missing=14,gain=0.905103564,cover=25.3029003
+			13:[Age<32.5] yes=27,no=28,missing=28,gain=0.889877796,cover=23.578434
+				27:[Embarked<2] yes=39,no=40,missing=40,gain=1.17353845,cover=22.4643383
+					39:[Age<17] yes=51,no=52,missing=52,gain=0.568588316,cover=10.2409992
+						51:[Fare<27.7208004] yes=63,no=64,missing=64,gain=0.244992256,cover=2.39996409
+							63:leaf=0.0827280134,cover=1.26374006
+							64:leaf=0.0120829893,cover=1.13622415
+						52:[Fare<29] yes=65,no=66,missing=66,gain=0.802758396,cover=7.84103441
+							65:leaf=-0.00860823318,cover=5.84967089
+							66:leaf=0.0539494045,cover=1.99136364
+					40:[Fare<69] yes=53,no=54,missing=54,gain=0.979022145,cover=12.22334
+						53:[Fare<8.68330002] yes=67,no=68,missing=68,gain=1.28901172,cover=9.89857388
+							67:leaf=-0.0383764133,cover=4.06152201
+							68:leaf=0.0281970538,cover=5.83705139
+						54:[Age<11] yes=69,no=70,missing=70,gain=0.0453767776,cover=2.3247664
+							69:leaf=-0.0185923483,cover=1.06413686
+							70:leaf=-0.0754830986,cover=1.26062953
+				28:leaf=0.0726182088,cover=1.11409545
+			14:leaf=-0.0502980016,cover=1.72446656
+booster[27]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=2.99634266,cover=107.820717
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.900276899,cover=69.1036606
+		3:[Age<32.5] yes=7,no=8,missing=8,gain=0.424452662,cover=14.4543447
+			7:[Fare<7.87919998] yes=15,no=16,missing=16,gain=0.278676391,cover=12.5726109
+				15:[Fare<7.7874999] yes=27,no=28,missing=28,gain=0.593240201,cover=10.3560991
+					27:[Age<28] yes=39,no=40,missing=40,gain=0.32744658,cover=8.60397625
+						39:[Fare<7.25] yes=47,no=48,missing=48,gain=0.365904301,cover=7.51046085
+							47:leaf=0.00566665689,cover=4.50270605
+							48:leaf=-0.0348376222,cover=3.0077548
+						40:leaf=-0.060399849,cover=1.09351575
+					28:leaf=0.0289609823,cover=1.75212216
+				16:leaf=-0.0498977043,cover=2.21651244
+			8:leaf=-0.0704913959,cover=1.88173342
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.5714885,cover=54.6493149
+			9:[Age<10] yes=17,no=18,missing=18,gain=1.17466378,cover=52.4533463
+				17:[Fare<78.75] yes=29,no=30,missing=30,gain=0.0770557523,cover=2.29442477
+					29:leaf=0.0675159171,cover=1.22202396
+					30:leaf=0.014208369,cover=1.07240081
+				18:[Fare<375.200012] yes=31,no=32,missing=32,gain=0.63470912,cover=50.1589203
+					31:[Fare<211.337494] yes=41,no=42,missing=42,gain=0.471352488,cover=48.5783501
+						41:[Age<25] yes=49,no=50,missing=50,gain=0.575885236,cover=45.9729805
+							49:leaf=-0.0288571455,cover=8.36191845
+							50:leaf=-0.00110731961,cover=37.6110611
+						42:[Embarked<1] yes=51,no=52,missing=52,gain=0.351847351,cover=2.60536695
+							51:leaf=-0.00356708257,cover=1.43725145
+							52:leaf=-0.070047766,cover=1.16811562
+					32:leaf=0.0415193848,cover=1.58057129
+			10:[Age<5] yes=19,no=20,missing=20,gain=0.0645033121,cover=2.19597125
+				19:leaf=-0.0114793731,cover=1.02526462
+				20:leaf=-0.0587327592,cover=1.17070663
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=2.1153388,cover=38.7170563
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.367508411,cover=13.576479
+			11:[Age<43] yes=21,no=22,missing=22,gain=0.399393797,cover=7.813519
+				21:[Age<28] yes=33,no=34,missing=34,gain=0.690970182,cover=5.85733747
+					33:[Age<23.5] yes=43,no=44,missing=44,gain=1.41863406,cover=2.61366725
+						43:leaf=0.0602747016,cover=1.17054927
+						44:leaf=-0.0508323871,cover=1.44311786
+					34:leaf=0.0679223612,cover=3.24367023
+				22:leaf=-0.00564598525,cover=1.95618176
+			12:[Fare<606.200012] yes=23,no=24,missing=24,gain=0.483973265,cover=5.76295948
+				23:leaf=0.0859905481,cover=4.35512877
+				24:leaf=0.0109455353,cover=1.40783083
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.829302132,cover=25.1405773
+			13:leaf=0.0585733056,cover=1.55112112
+			14:[Fare<69] yes=25,no=26,missing=26,gain=1.31542695,cover=23.5894566
+				25:[Age<36.5] yes=35,no=36,missing=36,gain=0.456775665,cover=20.7312832
+					35:[Fare<56.25] yes=45,no=46,missing=46,gain=0.825525939,cover=19.4979305
+						45:[FamilySize<1] yes=53,no=54,missing=54,gain=1.22279668,cover=18.4564133
+							53:leaf=-0.0508597679,cover=2.26568675
+							54:leaf=0.0159718376,cover=16.1907253
+						46:leaf=0.0730249509,cover=1.04151893
+					36:leaf=-0.0353945084,cover=1.23335195
+				26:[Age<22] yes=37,no=38,missing=38,gain=0.146814704,cover=2.85817266
+					37:leaf=-0.0721039921,cover=1.42652893
+					38:leaf=-0.015555257,cover=1.43164372
+booster[28]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=2.58457088,cover=106.521622
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.818394542,cover=68.4861145
+		3:[Age<32.5] yes=7,no=8,missing=8,gain=0.402772069,cover=14.1819983
+			7:[Fare<7.87919998] yes=15,no=16,missing=16,gain=0.251027107,cover=12.4107494
+				15:[Fare<7.7874999] yes=27,no=28,missing=28,gain=0.523619473,cover=10.2738075
+					27:[Age<28] yes=41,no=42,missing=42,gain=0.310854554,cover=8.49069691
+						41:[Fare<7.25] yes=51,no=52,missing=52,gain=0.320456535,cover=7.44519615
+							51:leaf=0.00518795801,cover=4.51780605
+							52:leaf=-0.0329182371,cover=2.92739034
+						42:leaf=-0.0586599298,cover=1.0455004
+					28:leaf=0.0267991517,cover=1.78311121
+				16:leaf=-0.0477012582,cover=2.13694167
+			8:leaf=-0.0686569437,cover=1.77124846
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.530825019,cover=54.3041115
+			9:[Age<10] yes=17,no=18,missing=18,gain=1.06296968,cover=52.1724243
+				17:[Fare<78.75] yes=29,no=30,missing=30,gain=0.073708415,cover=2.23146892
+					29:leaf=0.0654416755,cover=1.16911507
+					30:leaf=0.0135422219,cover=1.06235385
+				18:[Fare<375.200012] yes=31,no=32,missing=32,gain=0.557738841,cover=49.9409561
+					31:[Age<50] yes=43,no=44,missing=44,gain=0.459855735,cover=48.3668785
+						43:[Age<48] yes=53,no=54,missing=54,gain=1.82439458,cover=42.1424675
+							53:leaf=-0.00965418573,cover=40.5986176
+							54:leaf=0.0776354373,cover=1.54385114
+						44:[Age<60] yes=55,no=56,missing=56,gain=0.447240829,cover=6.22441006
+							55:leaf=-0.0492868796,cover=3.91666842
+							56:leaf=0.00289397547,cover=2.30774188
+					32:leaf=0.0390798002,cover=1.57407713
+			10:[Age<5] yes=19,no=20,missing=20,gain=0.0624726415,cover=2.13168836
+				19:leaf=-0.0109428829,cover=1.01741529
+				20:leaf=-0.0571272075,cover=1.11427307
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.91599584,cover=38.0355072
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.359414816,cover=13.0985832
+			11:[Age<36.5] yes=21,no=22,missing=22,gain=0.252765924,cover=2.62150764
+				21:leaf=0.0305891577,cover=1.54578507
+				22:leaf=-0.0173881333,cover=1.07572246
+			12:[FamilySize<1] yes=23,no=24,missing=24,gain=0.298839092,cover=10.4770765
+				23:[Fare<494.600098] yes=33,no=34,missing=34,gain=0.371808052,cover=3.07516026
+					33:[Fare<86.5] yes=45,no=46,missing=46,gain=0.0748746395,cover=2.02620006
+						45:leaf=0.00839373562,cover=1.01587439
+						46:leaf=0.0529422052,cover=1.01032567
+					34:leaf=-0.0171306487,cover=1.04896033
+				24:[Age<44] yes=35,no=36,missing=36,gain=0.300982952,cover=7.40191555
+					35:[Fare<42.4000015] yes=47,no=48,missing=48,gain=0.269455433,cover=5.2882762
+						47:leaf=0.0170183517,cover=1.12112927
+						48:leaf=0.0915251672,cover=4.16714716
+					36:leaf=0.0220146608,cover=2.11363935
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.749008477,cover=24.936924
+			13:leaf=0.0556794368,cover=1.52207947
+			14:[Fare<69] yes=25,no=26,missing=26,gain=1.1762979,cover=23.4148445
+				25:[Fare<7.55000019] yes=37,no=38,missing=38,gain=0.428892255,cover=20.6315575
+					37:leaf=0.0469197631,cover=1.4443959
+					38:[Fare<47.2251015] yes=49,no=50,missing=50,gain=0.560672402,cover=19.1871605
+						49:[Fare<35] yes=57,no=58,missing=58,gain=0.817655206,cover=17.0987949
+							57:leaf=0.00385441305,cover=15.5373783
+							58:leaf=-0.0569355376,cover=1.56141698
+						50:leaf=0.0415848531,cover=2.08836555
+				26:[Age<22] yes=39,no=40,missing=40,gain=0.142176151,cover=2.78328848
+					39:leaf=-0.0698945299,cover=1.35954225
+					40:leaf=-0.0146896681,cover=1.42374623
+booster[29]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=2.22563434,cover=105.28833
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.757563174,cover=67.8462143
+		3:[Age<32.5] yes=7,no=8,missing=8,gain=0.38172853,cover=13.9281626
+			7:[Age<27] yes=15,no=16,missing=16,gain=0.256259561,cover=12.2592821
+				15:[Fare<7.82919979] yes=27,no=28,missing=28,gain=0.446318924,cover=9.31140518
+					27:[Fare<7.75] yes=39,no=40,missing=40,gain=0.345038891,cover=7.72714329
+						39:[Fare<7.25] yes=51,no=52,missing=52,gain=0.369763076,cover=5.54122496
+							51:leaf=-0.00724953273,cover=4.30331898
+							52:leaf=-0.0594862811,cover=1.23790586
+						40:leaf=0.0149411261,cover=2.18591857
+					28:leaf=-0.0652607828,cover=1.58426189
+				16:[Fare<7.7874999] yes=29,no=30,missing=30,gain=0.256220311,cover=2.94787693
+					29:leaf=-0.0221064705,cover=1.22849846
+					30:leaf=0.0237379987,cover=1.71937859
+			8:leaf=-0.066866599,cover=1.66888058
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.498851597,cover=53.9180527
+			9:[Age<10] yes=17,no=18,missing=18,gain=0.955869138,cover=51.8466034
+				17:[Fare<78.75] yes=31,no=32,missing=32,gain=0.0706533194,cover=2.17165899
+					31:leaf=0.0634612665,cover=1.11884677
+					32:leaf=0.0129074929,cover=1.05281222
+				18:[Fare<375.200012] yes=33,no=34,missing=34,gain=0.485504448,cover=49.6749458
+					33:[Fare<211.337494] yes=41,no=42,missing=42,gain=0.447678208,cover=48.1079407
+						41:[Age<50] yes=53,no=54,missing=54,gain=0.523296118,cover=45.5669556
+							53:leaf=-0.000984214363,cover=40.3087044
+							54:leaf=-0.0320919938,cover=5.25824976
+						42:[Embarked<1] yes=55,no=56,missing=56,gain=0.32467252,cover=2.54098606
+							55:leaf=-0.00316330977,cover=1.42727983
+							56:leaf=-0.0672728643,cover=1.11370611
+					34:leaf=0.0367963873,cover=1.5670042
+			10:[Age<5] yes=19,no=20,missing=20,gain=0.0605069995,cover=2.07145095
+				19:leaf=-0.0104316017,cover=1.00995588
+				20:leaf=-0.0555755571,cover=1.06149495
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.7301054,cover=37.4421158
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.370511293,cover=12.6885214
+			11:[Age<43] yes=21,no=22,missing=22,gain=0.338161826,cover=7.47982693
+				21:[Age<28] yes=35,no=36,missing=36,gain=0.658437431,cover=5.53388739
+					35:[Age<23.5] yes=43,no=44,missing=44,gain=1.30716872,cover=2.52564192
+						43:leaf=0.0575280301,cover=1.07998121
+						44:leaf=-0.0503145047,cover=1.44566071
+					36:[Age<36] yes=45,no=46,missing=46,gain=0.0163822174,cover=3.00824523
+						45:leaf=0.0732930228,cover=1.91236436
+						46:leaf=0.0202677306,cover=1.09588099
+				22:leaf=-0.00609910442,cover=1.94593954
+			12:[Fare<606.200012] yes=23,no=24,missing=24,gain=0.472862244,cover=5.20869446
+				23:leaf=0.083160311,cover=3.81394982
+				24:leaf=0.00931887235,cover=1.39474452
+		6:[Age<39] yes=13,no=14,missing=14,gain=0.740767896,cover=24.7535934
+			13:[Age<32.5] yes=25,no=26,missing=26,gain=0.789994478,cover=23.0953922
+				25:[Embarked<2] yes=37,no=38,missing=38,gain=1.00802755,cover=22.0055008
+					37:[Age<17] yes=47,no=48,missing=48,gain=0.511365354,cover=10.0280409
+						47:[Fare<27.7208004] yes=57,no=58,missing=58,gain=0.238269806,cover=2.28006363
+							57:leaf=0.0784781277,cover=1.19343984
+							58:leaf=0.00989400502,cover=1.08662379
+						48:[Fare<29] yes=59,no=60,missing=60,gain=0.776988745,cover=7.74797726
+							59:leaf=-0.00974406116,cover=5.81711483
+							60:leaf=0.0521721132,cover=1.93086243
+					38:[Fare<7.7750001] yes=49,no=50,missing=50,gain=0.843567371,cover=11.9774609
+						49:leaf=0.0432027392,cover=1.18274343
+						50:[Fare<8.68330002] yes=61,no=62,missing=62,gain=1.30810261,cover=10.7947168
+							61:leaf=-0.0729799494,cover=2.8787775
+							62:leaf=-0.00184902514,cover=7.91593933
+				26:leaf=0.0677427799,cover=1.08989084
+			14:leaf=-0.0467236303,cover=1.65820134
+booster[30]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=1.99080253,cover=104.26458
+	1:[Pclass<1] yes=3,no=4,missing=4,gain=0.714358687,cover=67.3314056
+		3:[Fare<36] yes=7,no=8,missing=8,gain=0.552292466,cover=21.4632454
+			7:[Fare<28.9083996] yes=15,no=16,missing=16,gain=1.55903196,cover=9.60754681
+				15:[Fare<26.8334007] yes=29,no=30,missing=30,gain=2.11429501,cover=5.28341103
+					29:[Age<36.5] yes=45,no=46,missing=46,gain=0.595011234,cover=4.12042189
+						45:leaf=0.0630341172,cover=1.14281368
+						46:[Age<40.5] yes=65,no=66,missing=66,gain=0.253094167,cover=2.9776082
+							65:leaf=-0.0311330892,cover=1.0179354
+							66:leaf=0.0149525059,cover=1.95967269
+					30:leaf=-0.095660232,cover=1.16298914
+				16:[Fare<30.6958008] yes=31,no=32,missing=32,gain=0.815122843,cover=4.32413578
+					31:leaf=0.0942184851,cover=2.05239773
+					32:[Age<40.5] yes=47,no=48,missing=48,gain=0.280397892,cover=2.27173805
+						47:leaf=0.0327607915,cover=1.20873785
+						48:leaf=-0.0192061253,cover=1.0630002
+			8:[Fare<80] yes=17,no=18,missing=18,gain=3.0845809,cover=11.8556986
+				17:leaf=-0.0941527337,cover=2.23499465
+				18:[Age<50] yes=33,no=34,missing=34,gain=0.607657194,cover=9.6207037
+					33:[Fare<211.337494] yes=49,no=50,missing=50,gain=0.977190375,cover=7.66831636
+						49:[Embarked<1] yes=67,no=68,missing=68,gain=0.863528132,cover=4.63704252
+							67:leaf=0.1003085,cover=1.42875075
+							68:leaf=0.0151717681,cover=3.20829177
+						50:[Fare<332.649902] yes=69,no=70,missing=70,gain=0.673954427,cover=3.03127408
+							69:leaf=-0.0545976646,cover=1.04732728
+							70:leaf=0.0205911584,cover=1.9839468
+					34:leaf=-0.024063332,cover=1.95238709
+		4:[Age<32.5] yes=9,no=10,missing=10,gain=0.906284332,cover=45.8681564
+			9:[Age<31] yes=19,no=20,missing=20,gain=1.67941129,cover=38.0262222
+				19:[Embarked<1] yes=35,no=36,missing=36,gain=0.738798976,cover=34.3402824
+					35:[Fare<7.22919989] yes=51,no=52,missing=52,gain=0.420213789,cover=7.11971188
+						51:leaf=-0.0279439148,cover=1.31277299
+						52:[Age<18] yes=71,no=72,missing=72,gain=0.217152387,cover=5.80693865
+							71:leaf=-0.00951800868,cover=1.24653006
+							72:leaf=0.0307309236,cover=4.56040859
+					36:[Fare<7.05000019] yes=53,no=54,missing=54,gain=0.404358387,cover=27.2205696
+						53:leaf=0.0199769828,cover=1.24641931
+						54:[Age<20] yes=73,no=74,missing=74,gain=0.526648164,cover=25.9741516
+							73:leaf=-0.00263033761,cover=6.75037766
+							74:leaf=-0.0353024267,cover=19.223774
+				20:[Fare<11.5] yes=37,no=38,missing=38,gain=0.130133867,cover=3.68593884
+					37:leaf=0.0177907534,cover=2.17726779
+					38:leaf=0.0648550913,cover=1.50867081
+			10:[Age<39] yes=21,no=22,missing=22,gain=0.6837641,cover=7.84193707
+				21:leaf=-0.0800943598,cover=2.63875747
+				22:[Fare<13.5] yes=39,no=40,missing=40,gain=1.0446856,cover=5.20317984
+					39:[Age<45.5] yes=55,no=56,missing=56,gain=0.876428723,cover=3.66875648
+						55:leaf=0.0474969298,cover=2.01826453
+						56:leaf=-0.0318948328,cover=1.65049195
+					40:leaf=-0.0682537779,cover=1.53442347
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.53798068,cover=36.9331741
+		5:[Fare<78.75] yes=11,no=12,missing=12,gain=0.343022823,cover=12.2892485
+			11:[Age<43] yes=23,no=24,missing=24,gain=0.307928085,cover=7.36162376
+				23:[Age<28] yes=41,no=42,missing=42,gain=0.599389911,cover=5.4107089
+					41:[Age<23.5] yes=57,no=58,missing=58,gain=1.17186904,cover=2.52343464
+						57:leaf=0.0559332781,cover=1.03075325
+						58:leaf=-0.0463999659,cover=1.49268126
+					42:[Age<36] yes=59,no=60,missing=60,gain=0.0191804171,cover=2.88727427
+						59:leaf=0.0712808296,cover=1.8035742
+						60:leaf=0.0193261933,cover=1.08370006
+				24:leaf=-0.00568610756,cover=1.95091486
+			12:[Fare<606.200012] yes=25,no=26,missing=26,gain=0.456334591,cover=4.92762518
+				25:leaf=0.0815167874,cover=3.53624654
+				26:leaf=0.00878913421,cover=1.39137852
+		6:[Age<39] yes=13,no=14,missing=14,gain=0.669086993,cover=24.6439266
+			13:[Age<32.5] yes=27,no=28,missing=28,gain=0.703087091,cover=23.0249348
+				27:[Embarked<2] yes=43,no=44,missing=44,gain=0.88460362,cover=21.9372158
+					43:[Fare<47.2251015] yes=61,no=62,missing=62,gain=0.491176665,cover=9.98134613
+						61:[Fare<8.05000019] yes=75,no=76,missing=76,gain=1.48353088,cover=8.83607292
+							75:leaf=0.0418654978,cover=5.41548634
+							76:leaf=-0.0337614715,cover=3.42058611
+						62:leaf=0.0677315593,cover=1.14527357
+					44:[Fare<69] yes=63,no=64,missing=64,gain=0.788855433,cover=11.9558697
+						63:[Fare<8.68330002] yes=77,no=78,missing=78,gain=1.01073062,cover=9.79680824
+							77:leaf=-0.0342912264,cover=4.04136181
+							78:leaf=0.024878962,cover=5.75544691
+						64:[Age<11] yes=79,no=80,missing=80,gain=0.032725811,cover=2.15906143
+							79:leaf=-0.017165048,cover=1.03662884
+							80:leaf=-0.0697934553,cover=1.12243247
+				28:leaf=0.0642798692,cover=1.08771801
+			14:leaf=-0.0444997959,cover=1.61899257
+booster[31]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=1.72083521,cover=102.84848
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.65862149,cover=66.5399246
+		3:[Age<28] yes=7,no=8,missing=8,gain=0.387395263,cover=13.5124626
+			7:[Fare<7.82919979] yes=15,no=16,missing=16,gain=1.0293318,cover=9.69355392
+				15:[Embarked<2] yes=27,no=28,missing=28,gain=0.613847256,cover=8.03301239
+					27:[Age<23] yes=41,no=42,missing=42,gain=0.628283262,cover=4.16157627
+						41:leaf=0.0287775993,cover=1.03857362
+						42:[Fare<7.22919989] yes=55,no=56,missing=56,gain=0.177615404,cover=3.12300277
+							55:leaf=-0.0627903193,cover=1.10213113
+							56:leaf=-0.012468583,cover=2.02087164
+					28:[Age<23] yes=43,no=44,missing=44,gain=1.29410863,cover=3.87143564
+						43:leaf=-0.0311701894,cover=1.57628441
+						44:leaf=0.065787904,cover=2.29515123
+				16:leaf=-0.0686241388,cover=1.66054153
+			8:[Fare<7.82919979] yes=17,no=18,missing=18,gain=0.897058368,cover=3.81890941
+				17:leaf=-0.0790003464,cover=2.47971296
+				18:leaf=0.01050115,cover=1.33919644
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.46834144,cover=53.027462
+			9:[Age<10] yes=19,no=20,missing=20,gain=0.858400524,cover=51.02668
+				19:[Fare<78.75] yes=29,no=30,missing=30,gain=0.0641326904,cover=2.12260699
+					29:leaf=0.0616911724,cover=1.07373357
+					30:leaf=0.0126411784,cover=1.04887342
+				20:[Age<25] yes=31,no=32,missing=32,gain=0.426494777,cover=48.9040718
+					31:[Age<20.5] yes=45,no=46,missing=46,gain=1.4921757,cover=9.01486206
+						45:[Fare<8.11250019] yes=57,no=58,missing=58,gain=1.61523521,cover=5.80567312
+							57:leaf=0.0844883844,cover=1.01481485
+							58:leaf=-0.0196564142,cover=4.79085827
+						46:leaf=-0.0686959252,cover=3.20918941
+					32:[Fare<375.200012] yes=47,no=48,missing=48,gain=0.569453299,cover=39.8892097
+						47:[Fare<211.337494] yes=59,no=60,missing=60,gain=0.801663995,cover=38.6919174
+							59:leaf=0.00106008584,cover=36.8013229
+							60:leaf=-0.0536068268,cover=1.89059258
+						48:leaf=0.0494037494,cover=1.19729292
+			10:leaf=-0.0423337184,cover=2.00078249
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.39824617,cover=36.3085556
+		5:[Fare<13.5] yes=11,no=12,missing=12,gain=0.342735529,cover=11.9207592
+			11:[Fare<12.875] yes=21,no=22,missing=22,gain=0.267800897,cover=2.48285079
+				21:leaf=0.0306456666,cover=1.21999013
+				22:leaf=-0.0186295751,cover=1.26286066
+			12:[FamilySize<1] yes=23,no=24,missing=24,gain=0.338215113,cover=9.43790817
+				23:[Age<24.5] yes=33,no=34,missing=34,gain=0.407717615,cover=2.81428623
+					33:leaf=0.0409398042,cover=1.50825989
+					34:leaf=-0.018680742,cover=1.30602634
+				24:[Age<44] yes=35,no=36,missing=36,gain=0.295934916,cover=6.62362242
+					35:[Fare<42.4000015] yes=49,no=50,missing=50,gain=0.270821571,cover=4.61683559
+						49:leaf=0.0143697755,cover=1.06603014
+						50:leaf=0.0878404826,cover=3.55080533
+					36:leaf=0.0186462905,cover=2.00678682
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.652552068,cover=24.3877964
+			13:leaf=0.0523608215,cover=1.45512509
+			14:[Fare<18.7875004] yes=25,no=26,missing=26,gain=1.01475811,cover=22.9326706
+				25:[Fare<8.68330002] yes=37,no=38,missing=38,gain=0.594204783,cover=11.9809847
+					37:[Embarked<2] yes=51,no=52,missing=52,gain=1.12774241,cover=9.60008144
+						51:[Fare<7.6500001] yes=61,no=62,missing=62,gain=0.69824183,cover=5.55558062
+							61:leaf=-0.0245328862,cover=1.10698652
+							62:leaf=0.0472956263,cover=4.44859409
+						52:[Fare<7.7750001] yes=63,no=64,missing=64,gain=1.54435802,cover=4.04450083
+							63:leaf=0.0427663699,cover=1.18039393
+							64:leaf=-0.0652822852,cover=2.86410689
+					38:leaf=0.0537333749,cover=2.38090348
+				26:[Age<39] yes=39,no=40,missing=40,gain=0.841494501,cover=10.9516869
+					39:[Age<22] yes=53,no=54,missing=54,gain=1.54589641,cover=9.5715971
+						53:[Embarked<2] yes=65,no=66,missing=66,gain=0.428872347,cover=5.76183224
+							65:leaf=-0.00685770949,cover=2.87576699
+							66:leaf=-0.0605580397,cover=2.88606548
+						54:[Fare<43.5] yes=67,no=68,missing=68,gain=0.385065019,cover=3.80976439
+							67:leaf=-0.000597555365,cover=1.80433059
+							68:leaf=0.0575164333,cover=2.0054338
+					40:leaf=-0.0762422979,cover=1.38009
+booster[32]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=1.49587321,cover=101.793747
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.60498929,cover=65.9983444
+		3:[Age<28] yes=7,no=8,missing=8,gain=0.345436811,cover=13.283844
+			7:[Fare<7.82919979] yes=15,no=16,missing=16,gain=0.937558651,cover=9.61265659
+				15:[Fare<7.7750001] yes=27,no=28,missing=28,gain=0.563475132,cover=8.04488659
+					27:[Fare<7.25] yes=41,no=42,missing=42,gain=0.377815902,cover=6.46721792
+						41:[Embarked<2] yes=55,no=56,missing=56,gain=0.537683964,cover=4.49665594
+							55:leaf=-0.0186233614,cover=2.94879627
+							56:leaf=0.0404333025,cover=1.54785979
+						42:leaf=-0.039615076,cover=1.97056186
+					28:leaf=0.0424392596,cover=1.57766855
+				16:leaf=-0.0667906031,cover=1.56776977
+			8:[Fare<7.82919979] yes=17,no=18,missing=18,gain=0.833143711,cover=3.67118716
+				17:leaf=-0.0769847482,cover=2.3243916
+				18:leaf=0.00986620225,cover=1.34679556
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.422711313,cover=52.7145004
+			9:[Age<13] yes=19,no=20,missing=20,gain=0.790602267,cover=50.778183
+				19:[Pclass<2] yes=29,no=30,missing=30,gain=0.201344132,cover=2.6951015
+					29:leaf=0.0632628649,cover=1.18523371
+					30:leaf=0.0086265495,cover=1.50986779
+				20:[Age<25] yes=31,no=32,missing=32,gain=0.437178493,cover=48.0830803
+					31:[Age<20.5] yes=43,no=44,missing=44,gain=1.2481221,cover=8.23983288
+						43:[Fare<8.11250019] yes=57,no=58,missing=58,gain=1.50702989,cover=5.17853165
+							57:leaf=0.0782546327,cover=1.06313777
+							58:leaf=-0.0231314655,cover=4.11539412
+						44:[Fare<46.5] yes=59,no=60,missing=60,gain=0.0119831562,cover=3.06130147
+							59:leaf=-0.0745718479,cover=2.04701328
+							60:leaf=-0.0200552978,cover=1.01428807
+					32:[Fare<375.200012] yes=45,no=46,missing=46,gain=0.511683702,cover=39.8432465
+						45:[Fare<211.337494] yes=61,no=62,missing=62,gain=0.713677287,cover=38.6562271
+							61:leaf=0.000956468226,cover=36.8168945
+							62:leaf=-0.0510535128,cover=1.83933175
+						46:leaf=0.046942547,cover=1.18701994
+			10:leaf=-0.0404251665,cover=1.93631899
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.24691403,cover=35.7954025
+		5:[Age<28] yes=11,no=12,missing=12,gain=0.326755524,cover=11.6238575
+			11:[Age<24.5] yes=21,no=22,missing=22,gain=2.16811752,cover=4.68501616
+				21:[Age<18] yes=33,no=34,missing=34,gain=0.110279202,cover=3.56129551
+					33:leaf=0.0105390875,cover=1.00369143
+					34:[Age<23.5] yes=47,no=48,missing=48,gain=0.195732474,cover=2.55760384
+						47:leaf=0.0777746364,cover=1.55546021
+						48:leaf=0.011206286,cover=1.00214374
+				22:leaf=-0.0698524937,cover=1.123721
+			12:[Age<36.5] yes=23,no=24,missing=24,gain=0.397996664,cover=6.93884134
+				23:leaf=0.0799746141,cover=2.88864684
+				24:[Fare<13.5] yes=35,no=36,missing=36,gain=0.4116036,cover=4.05019426
+					35:leaf=-0.0175333899,cover=1.07462668
+					36:[Fare<54] yes=49,no=50,missing=50,gain=0.108233988,cover=2.97556758
+						49:leaf=0.0128728971,cover=1.76258075
+						50:leaf=0.0571610928,cover=1.21298683
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.585055172,cover=24.1715431
+			13:leaf=0.0497385152,cover=1.43257689
+			14:[Fare<69] yes=25,no=26,missing=26,gain=0.910852313,cover=22.738966
+				25:[Age<21.5] yes=37,no=38,missing=38,gain=0.381262124,cover=20.1972027
+					37:[Age<17] yes=51,no=52,missing=52,gain=0.702895939,cover=5.50557899
+						51:leaf=0.0257774424,cover=1.95842075
+						52:[Fare<18.7875004] yes=63,no=64,missing=64,gain=0.315812051,cover=3.54715824
+							63:leaf=-0.00826625433,cover=2.34938622
+							64:leaf=-0.065328978,cover=1.19777203
+					38:[Fare<7.89580011] yes=53,no=54,missing=54,gain=0.54835093,cover=14.6916237
+						53:[Fare<7.6500001] yes=65,no=66,missing=66,gain=0.333458245,cover=5.44239378
+							65:leaf=-0.00532604335,cover=1.27080333
+							66:leaf=0.0480890684,cover=4.17159033
+						54:[Fare<30] yes=67,no=68,missing=68,gain=1.45356119,cover=9.24923038
+							67:leaf=-0.0373629853,cover=4.56809521
+							68:leaf=0.034536425,cover=4.6811347
+				26:[Age<22] yes=39,no=40,missing=40,gain=0.114556134,cover=2.54176402
+					39:leaf=-0.0644690096,cover=1.19763899
+					40:leaf=-0.0131003959,cover=1.34412503
+booster[33]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=1.29192042,cover=100.718811
+	1:[Pclass<1] yes=3,no=4,missing=4,gain=0.569327414,cover=65.4530029
+		3:[FamilySize<1] yes=7,no=8,missing=8,gain=0.554196,cover=21.0516052
+			7:[Embarked<2] yes=15,no=16,missing=16,gain=0.226870656,cover=2.52971983
+				15:leaf=0.00294757169,cover=1.16481435
+				16:leaf=0.0595864132,cover=1.36490536
+			8:[Fare<36] yes=17,no=18,missing=18,gain=1.03084397,cover=18.5218849
+				17:[Fare<28.9083996] yes=29,no=30,missing=30,gain=1.34341168,cover=9.48975754
+					29:[Fare<26.8334007] yes=45,no=46,missing=46,gain=1.94023311,cover=5.18320751
+						45:[Age<36.5] yes=59,no=60,missing=60,gain=0.539210618,cover=4.04072857
+							59:leaf=0.061274033,cover=1.10095811
+							60:leaf=-0.00387046975,cover=2.93977046
+						46:leaf=-0.0915361866,cover=1.14247918
+					30:[Fare<30.6958008] yes=47,no=48,missing=48,gain=0.711992145,cover=4.30655003
+						47:leaf=0.0880934671,cover=2.04099655
+						48:[Age<40.5] yes=61,no=62,missing=62,gain=0.251344055,cover=2.26555371
+							61:leaf=0.0308067631,cover=1.21218097
+							62:leaf=-0.0184103213,cover=1.05337274
+				18:[Fare<80] yes=31,no=32,missing=32,gain=1.98710763,cover=9.03212738
+					31:leaf=-0.0904707238,cover=2.12685561
+					32:[Age<50] yes=49,no=50,missing=50,gain=1.29256415,cover=6.90527153
+						49:[Fare<127.333504] yes=63,no=64,missing=64,gain=1.05494344,cover=5.89996529
+							63:leaf=0.0610438175,cover=2.76814961
+							64:leaf=-0.0139830401,cover=3.13181591
+						50:leaf=-0.066322349,cover=1.00530612
+		4:[Fare<78.75] yes=9,no=10,missing=10,gain=0.94993645,cover=44.4013939
+			9:[Fare<45.7374001] yes=19,no=20,missing=20,gain=1.51581812,cover=40.4074135
+				19:[Fare<23] yes=33,no=34,missing=34,gain=1.22720349,cover=34.5160942
+					33:[Fare<15.5] yes=51,no=52,missing=52,gain=0.687146664,cover=31.2957458
+						51:[Age<27] yes=65,no=66,missing=66,gain=1.11993313,cover=28.9762039
+							65:leaf=-0.0317370482,cover=15.6761942
+							66:leaf=0.00674603274,cover=13.3000088
+						52:[Age<18] yes=67,no=68,missing=68,gain=0.674653292,cover=2.31954241
+							67:leaf=-0.0173383877,cover=1.09258223
+							68:leaf=0.0667416751,cover=1.2269603
+					34:leaf=-0.067921482,cover=3.22034812
+				20:[Pclass<2] yes=35,no=36,missing=36,gain=1.37527394,cover=5.89132023
+					35:leaf=-0.0286819674,cover=1.78347993
+					36:[Age<27] yes=53,no=54,missing=54,gain=0.318902254,cover=4.10784054
+						53:leaf=0.0750301555,cover=3.02475882
+						54:leaf=0.00678909337,cover=1.0830816
+			10:[Age<4] yes=21,no=22,missing=22,gain=0.374117494,cover=3.99398065
+				21:leaf=-0.00554647902,cover=1.32495606
+				22:leaf=-0.0721725449,cover=2.66902447
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.13787317,cover=35.2658119
+		5:[Embarked<2] yes=11,no=12,missing=12,gain=0.313408613,cover=11.3137026
+			11:[Fare<50.0999985] yes=23,no=24,missing=24,gain=0.111942887,cover=2.98993397
+				23:leaf=0.0157071799,cover=1.0116384
+				24:leaf=0.0774081126,cover=1.97829545
+			12:[Age<28] yes=25,no=26,missing=26,gain=1.15100503,cover=8.32376862
+				25:[Age<24.5] yes=37,no=38,missing=38,gain=1.36703348,cover=3.33387685
+					37:leaf=0.0252725836,cover=2.33219194
+					38:leaf=-0.0802447274,cover=1.00168502
+				26:[Fare<13.5] yes=39,no=40,missing=40,gain=0.179077864,cover=4.98989201
+					39:leaf=0.0143811423,cover=1.76119328
+					40:leaf=0.0637906864,cover=3.22869849
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.529344678,cover=23.9521084
+			13:leaf=0.0472254008,cover=1.4122268
+			14:[Fare<18.7875004] yes=27,no=28,missing=28,gain=0.843708038,cover=22.5398808
+				27:[Fare<8.68330002] yes=41,no=42,missing=42,gain=0.588939846,cover=11.7986307
+					41:[Fare<8.0291996] yes=55,no=56,missing=56,gain=0.925030947,cover=9.41032028
+						55:[Age<23] yes=69,no=70,missing=70,gain=0.733227491,cover=8.3513813
+							69:leaf=0.0312119704,cover=6.43478155
+							70:leaf=-0.028855158,cover=1.91659963
+						56:leaf=-0.0582511686,cover=1.05893946
+					42:leaf=0.0516250394,cover=2.38831043
+				28:[Age<39] yes=43,no=44,missing=44,gain=0.773041785,cover=10.74125
+					43:[Age<22] yes=57,no=58,missing=58,gain=1.23449218,cover=9.43274593
+						57:[FamilySize<1] yes=71,no=72,missing=72,gain=0.441852987,cover=5.64404345
+							71:leaf=-0.0658062026,cover=1.78361058
+							72:leaf=-0.0101483604,cover=3.86043286
+						58:[Fare<43.5] yes=73,no=74,missing=74,gain=0.356087446,cover=3.78870249
+							73:leaf=-0.00214830367,cover=1.80511069
+							74:leaf=0.0529867522,cover=1.98359168
+					44:leaf=-0.0733632818,cover=1.30850458
+booster[34]:
+0:[Sex<1] yes=1,no=2,missing=2,gain=1.09050381,cover=99.5496063
+	1:[Fare<7.92500019] yes=3,no=4,missing=4,gain=0.482603759,cover=64.7659378
+		3:[Age<28] yes=7,no=8,missing=8,gain=0.384393454,cover=12.8682795
+			7:[Fare<7.82919979] yes=15,no=16,missing=16,gain=0.912299573,cover=9.31584835
+				15:[Fare<7.75] yes=27,no=28,missing=28,gain=0.484072298,cover=7.87005186
+					27:[Fare<7.25] yes=41,no=42,missing=42,gain=0.593393266,cover=5.51058578
+						41:[Embarked<2] yes=51,no=52,missing=52,gain=0.454489589,cover=4.41973209
+							51:leaf=-0.0152546242,cover=2.86171508
+							52:leaf=0.0393930227,cover=1.55801678
+						42:leaf=-0.0555842519,cover=1.09085405
+					28:leaf=0.035426449,cover=2.35946608
+				16:leaf=-0.0643587783,cover=1.44579613
+			8:[Fare<7.82919979] yes=17,no=18,missing=18,gain=0.768581748,cover=3.55243158
+				17:leaf=-0.0752007887,cover=2.1936245
+				18:leaf=0.0088632293,cover=1.35880697
+		4:[FamilySize<2] yes=9,no=10,missing=10,gain=0.338564694,cover=51.8976555
+			9:[Age<13] yes=19,no=20,missing=20,gain=0.722331047,cover=50.0909157
+				19:[Pclass<2] yes=29,no=30,missing=30,gain=0.183549106,cover=2.63673663
+					29:leaf=0.0615270399,cover=1.13423097
+					30:leaf=0.00863584038,cover=1.50250554
+				20:[Age<30] yes=31,no=32,missing=32,gain=0.370735347,cover=47.4541779
+					31:[Fare<127.333504] yes=43,no=44,missing=44,gain=0.883380651,cover=19.6600018
+						43:[Pclass<1] yes=53,no=54,missing=54,gain=1.65261459,cover=17.8221169
+							53:leaf=0.0622998476,cover=2.05228615
+							54:leaf=-0.0177745391,cover=15.7698307
+						44:leaf=-0.0662438944,cover=1.83788443
+					32:[Age<32.5] yes=45,no=46,missing=46,gain=0.807388246,cover=27.7941761
+						45:[Pclass<1] yes=55,no=56,missing=56,gain=0.72909677,cover=5.88438845
+							55:leaf=-0.024686778,cover=1.10074639
+							56:leaf=0.0484998263,cover=4.78364182
+						46:[Pclass<1] yes=57,no=58,missing=58,gain=0.79550755,cover=21.9097881
+							57:leaf=0.00651984429,cover=15.5898972
+							58:leaf=-0.0331384689,cover=6.3198905
+			10:leaf=-0.0366690718,cover=1.80674148
+	2:[Pclass<2] yes=5,no=6,missing=6,gain=1.02511215,cover=34.7836761
+		5:[Embarked<2] yes=11,no=12,missing=12,gain=0.307099581,cover=11.0195217
+			11:[Age<34] yes=21,no=22,missing=22,gain=0.113567948,cover=2.86649966
+				21:leaf=0.07652843,cover=1.76534128
+				22:leaf=0.0162118413,cover=1.10115826
+			12:[Age<28] yes=23,no=24,missing=24,gain=1.04525864,cover=8.15302277
+				23:[Age<23.5] yes=33,no=34,missing=34,gain=1.24627435,cover=3.33103991
+					33:leaf=0.0357102081,cover=1.62247586
+					34:leaf=-0.0619209595,cover=1.70856404
+				24:[Age<36.5] yes=35,no=36,missing=36,gain=0.171608329,cover=4.82198238
+					35:leaf=0.0697108135,cover=1.86822152
+					36:[Age<45] yes=47,no=48,missing=48,gain=0.446073413,cover=2.95376086
+						47:leaf=-0.0165029578,cover=1.26750231
+						48:leaf=0.0462770574,cover=1.68625867
+		6:[Age<6] yes=13,no=14,missing=14,gain=0.480724096,cover=23.7641525
+			13:leaf=0.0448201001,cover=1.3938545
+			14:[Fare<69] yes=25,no=26,missing=26,gain=0.779686153,cover=22.3702984
+				25:[Fare<47.2251015] yes=37,no=38,missing=38,gain=0.351051271,cover=19.9437008
+					37:[Fare<35] yes=49,no=50,missing=50,gain=0.911853909,cover=17.9936352
+						49:[Fare<30] yes=59,no=60,missing=60,gain=0.538513482,cover=16.4481735
+							59:leaf=-5.96832906e-05,cover=14.40767
+							60:leaf=0.0462492742,cover=2.04050303
+						50:leaf=-0.056062758,cover=1.54546237
+					38:leaf=0.0370497815,cover=1.95006585
+				26:[Age<22] yes=39,no=40,missing=40,gain=0.0996562839,cover=2.42659688
+					39:leaf=-0.0615583137,cover=1.11484563
+					40:leaf=-0.0124560194,cover=1.31175113
